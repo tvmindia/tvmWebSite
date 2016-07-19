@@ -139,14 +139,20 @@
                             <img src="images/iPhone_Home1.png" alt=""/>
                         </div>
                     </div>
+                    <div id="imageHome2" class="col-md-3 col-md-offset-1 col-sm-4" style="display:none;">
+                        <div class="home-iphone">
+                            <img src="images/iPhone_Home1.png" alt=""/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <svg class="arrows">
-							<<%--path class="a1" d="M0 0 L30 32 L60 0"></path>--%>
-							<path class="a2" d="M0 20 L30 52 L60 20"></path>
-							<path class="a3" d="M0 40 L30 72 L60 40"></path>
+		<a href="#ABOUT">			
+        	<path class="a2" d="M0 20 L30 52 L60 20"></path>
+			<path class="a3" d="M0 40 L30 72 L60 40"></path>
+                </a>	
 						</svg>
 
     <!-- END HEADER SECTION -->
@@ -1051,30 +1057,60 @@
             color: 'white',
         });
         slider();
+        //slider2();
         function slider(){
-        setTimeout(function () {
-            $('#imageHome').css({ "-webkit-animation": "mymove 1s", "animation": "mymove 1s","animation": "hide 500ms linear","width":"10%", "visibility": "hidden" })
-            $('#logobig').css({ "-webkit-animation": "mymove 1s", "animation": "mymove 1s", "visibility": "hidden" })
-            $('.home_text h1').html('cheriesh your future').animate({ 'opacity': 1 })
-            $('.home_text h1').css({ "animation": "mymove 1s", "animation": "mymove 1s", "font-family": "Baskerville Old Face" })
-            $('.home_text h1').animate({'font-size':'75px'})
-            $('.home_text p').html('Technology awaits for you...').animate({'opacity': 1})
-            $('.home_text p').css({ "animation": "mymove 1s", "font-family": "Brush Script MT" })
-            $('.header').css({ "background": "url(../images/ThriHome3.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 2s ease", "-moz-transition": "all 2s ease", "-ms-transition": "all 2s ease", "transition": "all 2s ease", "width": "110%", "background-position": "center center" })
-            
-
-        }, 5000);
-        setTimeout(function () {
+            setTimeout(function () {
+                
+            //$('#imageHome').css({ "-webkit-animation": "mymove 1s", "animation": "mymove 1s","animation": "hide 500ms linear","width":"10%", "visibility": "hidden" })
+               
+                $('#imageHome2').css({ "-webkit-animation": "mymove 10s", "animation": "mymove 10s", "display": "block" })
+            $('.header').css({ "background": "url(../images/ThriHome3.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 2s ease", "-moz-transition": "all 2s ease", "-ms-transition": "all 2s ease", "transition": "all 2s ease", "width": "110%", "background-position": "center center" })          
+            }, 5000);
             $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
-            $('.home_text h1').css({ "animation": "mymove 1s", "font-family": "Brush Script MT" })
+            $('.home_text h1').css({ "font-family": "Brush Script MT" })
             $('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
-            $('.home_text p').css({ "animation": "mymove 1s", "font-family": "Baskerville Old Face" })
-        $('.header').css({ "background": "url(../images/ThriHome4.png)no-repeat", "background-size": "cover", "-webkit-transition": "all 2s ease", "-moz-transition": "all 2s ease", "-ms-transition": "all 2s ease", "transition": "all 2s ease", "width": "105%", "background-position": "center center" })
+            $('.home_text p').css({ "font-family": "Baskerville Old Face" })
+            $('#logobig').fadeOut(4999);
+            $('.home_text h1').fadeOut(4999);
+            $('.home_text p').fadeOut(4999);
+            $('#imageHome').fadeOut(4999);
+            setTimeout(function () {
+                $('.home_text h1').html('cheriesh your future').animate({ 'opacity': 1 })
+                $('.home_text h1').css({ "font-family": "Baskerville Old Face" })
+                $('.home_text h1').animate({ 'font-size': '75px' })
+                $('.home_text p').html('Technology awaits for you...').animate({ 'opacity': 1 })
+                $('.home_text p').css({ "font-family": "Brush Script MT" })
+               
+            $('.home_text h1').fadeIn(1100);
+            $('.home_text p').fadeIn(1100);
+        $('.header').css({ "background": "url(../images/bg-1.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 2s ease", "-moz-transition": "all 2s ease", "-ms-transition": "all 2s ease", "transition": "all 2s ease", "width": "105%", "background-position": "center center" })
         $('#imageHome1').css({ "-webkit-animation": "mymove 10s", "animation": "mymove 10s", "display": "block" })
         }, 10000);
 
         setTimeout(slider, 15000);
         }
+        //function slider2() {
+        //    setTimeout(function () {
+               
+
+        //        $('.home_text h1').html('cheriesh your future').animate({ 'opacity': 1 })
+        //        $('.home_text h1').css({"font-family": "Baskerville Old Face" })
+        //        $('.home_text h1').animate({ 'font-size': '75px' })
+        //        $('.home_text p').html('Technology awaits for you...').animate({ 'opacity': 1 })
+        //        $('.home_text p').css({"font-family": "Brush Script MT" })
+                
+
+        //    }, 1000);
+        //    setTimeout(function () {
+        //        $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
+        //        $('.home_text h1').css({"font-family": "Brush Script MT" })
+        //        $('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
+        //        $('.home_text p').css({ "font-family": "Baskerville Old Face" })
+               
+        //    }, 1000);
+
+        //    setTimeout(slider2, 5000);
+        //}
             </script>
    
 
