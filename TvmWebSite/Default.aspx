@@ -151,7 +151,7 @@
     <svg class="arrows">
 		<a href="#ABOUT">			
         	<path class="a2" d="M0 20 L30 52 L60 20"></path>
-			<path class="a3" d="M0 40 L30 72 L60 40"></path>
+				<path class="a3" d="M0 40 L30 72 L60 40"></path>
                 </a>	
 						</svg>
 
@@ -488,23 +488,25 @@
 
                     <!-- APPS SCREEN IMAGES -->
                     <div class="item">
+                        <a href="images/ThriC.jpg" rel="prettyPhoto[pp_gal]"><img src="images/12.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                    </div>
+                    <div class="item">
                     <a href="images/1.png" rel="prettyPhoto[pp_gal]"><img src="images/1.png" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
                         <a href="images/4.png" rel="prettyPhoto[pp_gal]"><img src="images/Thripro.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
+                        <a href="images/ThriFlyD.png" rel="prettyPhoto[pp_gal]"><img src="images/FlyDoc1.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                    </div>
+                    <div class="item">
                         <a href="images/2.png" rel="prettyPhoto[pp_gal]"><img src="images/2.png" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
-                     <div class="item">
-                        <a href="images/ThriFlyD.png" rel="prettyPhoto[pp_gal]"><img src="images/ThriFlyD.png" width="60" height="60" alt="APPS SCREEN" /></a>
-                    </div>
+                     
                     <div class="item">
                         <a href="images/5.png" rel="prettyPhoto[pp_gal]"><img src="images/5.png" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
-                    <div class="item">
-                        <a href="images/ThriC.jpg" rel="prettyPhoto[pp_gal]"><img src="images/ThriC.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
-                    </div>
+                    
                    
                 </div>
             </div>
