@@ -80,7 +80,7 @@
 ============================== -->
     <section class="header parallax home-parallax page" id="HOME">
         <h2></h2>
-        <div class="section_overlay">
+        <div class="section_overlay1">
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -112,6 +112,17 @@
             </nav>
 
             <div class="container home-container">
+                <%--<div style="width:100%!important;background-color:rgba(59, 59, 59, 0.7)!important;height:50px!important;position:absolute!important;z-index:30!important;top:0!important;left:0!important;">
+                    <img src="images/logo.png" alt="Logo" style="position:absolute;height:39px;"/>
+                    <ul class="nav navbar-nav navbar-right" style=">
+                            <!-- NAV -->
+                            <li><a href="#HOME">HOME</a> </li>
+                            <li><a href="#ABOUT">ABOUT US</a> </li>
+                            <li><a href="#SERVICES">SERVICES</a> </li>
+                            <li><a href="#PRODUCTS">PRODUCTS</a> </li>
+                            <li><a href="#CONTACT">CONTACT </a> </li>
+                        </ul>
+                </div>--%>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="logo text-left">
@@ -139,11 +150,7 @@
                             <img src="images/iPhone_Home1.png" alt=""/>
                         </div>
                     </div>
-                    <div id="imageHome2" class="col-md-3 col-md-offset-1 col-sm-4" style="display:none;">
-                        <div class="home-iphone">
-                            <img src="images/iPhone_Home1.png" alt=""/>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -270,36 +277,56 @@
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="1"></li>
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="3"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="4"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="5"></li>
                             </ol>
 
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
+                               
                                 <div class="item active">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-12 text-center">
-                                                <!-- IMAGE -->
-                                                <img src="images/client_2.png" alt="">
+                                                 <!-- IMAGE -->
+                                                <img src="images/prjManag.png" alt=""/>
                                                 <div class="testimonial_caption">
-                                                   <!-- DESCRIPTION -->  
-                                                    <h2>Jomon T Davy</h2>
-                                                    <h4><span>CEO,</span> The BackBone</h4>
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Prj. Manager</h2>
+                                                    <h4><span>,</span> The Mould</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
+                                 <div class="item">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                  <!-- IMAGE -->
-                                                <img src="images/client_2.png" alt="">
+                                                <img src="images/architcct.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
-                                                    <h2>Jane Smith</h2>
-                                                    <h4><span>SR. Developer,</span> The Code Cafe</h4>
+                                                    <h2>Architect</h2>
+                                                    <h4><span>,</span> The Milestone</h4>
+                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                 <!-- IMAGE -->
+                                                <img src="images/TEAMLEAD.png" alt=""/>
+                                                <div class="testimonial_caption">
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Team Lead</h2>
+                                                    <h4><span>,</span> The Captain</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
                                             </div>
@@ -311,11 +338,43 @@
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                 <!-- IMAGE -->
-                                                <img src="images/client_3.png" alt=""/>
+                                                <img src="images/dEVELOPER.png" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
-                                                    <h2>Jane Smith</h2>
-                                                    <h4><span>SR. Developer,</span> The Code Cafe</h4>
+                                                    <h2>Developer</h2>
+                                                    <h4><span>,</span> The Code Cafe</h4>
+                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <!-- IMAGE -->
+                                                <img src="images/DESIGN.png" alt=""/>
+                                                <div class="testimonial_caption">
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Designer</h2>
+                                                    <h4><span>,</span> The UI magician</h4>
+                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <!-- IMAGE -->
+                                                <img src="images/CUSTORE.png" alt=""/>
+                                                <div class="testimonial_caption">
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Customer Relation</h2>
+                                                    <h4><span>,</span>Your Buddy</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
                                             </div>
@@ -346,7 +405,7 @@
                     <!-- FEATURES SECTION TITLE -->
                     <div class="section_title wow fadeIn" data-wow-duration="1s">
                         <h2>SERVICES</h2>
-                        <p>You can buy a person's time; you can buy their physical presence at a given place; you can even buy a measured number of their skilled muscular motions per hour. But you can not buy enthusiasm . . . You can not buy loyalty . . . You can not buy the devotion of hearts, minds, or souls. You must earn these.</p>
+                        <p style="text-align:left!important">"You can buy a person's time; you can buy their physical presence at a given place; you can even buy a measured number of their skilled muscular motions per hour. But you can not buy enthusiasm . . . You can not buy loyalty . . . You can not buy the devotion of hearts, minds, or souls. You must earn these."<br /><p style="color:black!important;font-size:12px!important;text-align:right!important;margin-top:0px!important;">Clarence Francis, Former Chairmn of the Board General Foods Corporation</p></p>
                     </div>
                     <!-- END FEATURES SECTION TITLE -->
                 </div>
@@ -488,16 +547,16 @@
 
                     <!-- APPS SCREEN IMAGES -->
                     <div class="item">
-                        <a href="images/ThriC.jpg" rel="prettyPhoto[pp_gal]"><img src="images/12.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="FlyConst" href="#Flyconstruction"><img src="images/FlyConProduct.jpg" width="60" height="60" alt="APPS SCREEN"/></a>
                     </div>
                     <div class="item">
-                    <a href="images/1.png" rel="prettyPhoto[pp_gal]"><img src="images/1.png" width="60" height="60" alt="APPS SCREEN" /></a>
+                    <a href="images/1.png" rel="prettyPhoto[pp_gal]"><img src="images/Trail11.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a href="images/4.png" rel="prettyPhoto[pp_gal]"><img src="images/Thripro.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a href="images/4.png" rel="prettyPhoto[pp_gal]"><img src="images/PartyecProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a href="images/ThriFlyD.png" rel="prettyPhoto[pp_gal]"><img src="images/FlyDoc1.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a href="images/ThriFlyD.png" rel="prettyPhoto[pp_gal]"><img src="images/FlyDocProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
                         <a href="images/2.png" rel="prettyPhoto[pp_gal]"><img src="images/2.png" width="60" height="60" alt="APPS SCREEN" /></a>
@@ -1000,7 +1059,35 @@
             </div>
         </div>--%>
      <!-- END SECTION WEBSITE -->
-     
+     <div id="Flyconstruction" class="close-Flyconstruction modal-body"> 
+        <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
+            <img src="images/logo.png" style="position:absolute;height:39px;"/>
+            <div class="single_fun_facts">
+                <i class="pe-7s-back" style="position: absolute;right:24px;font-size:38px;"></i>
+            </div>
+ 
+        </div>      
+    <div class="modal-header" style="text-align:center;margin-top:1.5%;">
+       
+    <h3>Clinic App</h3>
+    </div>
+	<div class="container right_single_feature" style="font-size:16px;">               
+	          
+          
+           <h4>A Clinic Assistance Application</h4>
+           We support you in:<br/>         
+            <p><i class="fa fa-angle-double-right orange"></i> Feasibility Study of the Business Requirements<br />
+            <i class="fa fa-angle-double-right orange"></i> Translating business requirements to Functional and Technical requirements <br />
+            <i class="fa fa-angle-double-right orange"></i> Optimal Technical Solution/Architecture Design <br />
+            <i class="fa fa-angle-double-right orange"></i> Effort Estimation and staffing plans from estimated efforts<br /> 
+            <i class="fa fa-angle-double-right orange"></i> Estimation of Hardware, Software and Services Cost<br />
+            <i class="fa fa-angle-double-right orange"></i> Response to RFPs and RFIs <br /><i class="fa fa-angle-double-right orange"></i> Integration Architecture <br />
+            <i class="fa fa-angle-double-right orange"></i> Complex decisions like Make or Buy, In-Premises or Cloud, Web or Mobile <br /><i class="fa fa-angle-double-right orange"></i> Executing Proof of Concepts<br />
+            <i class="fa fa-angle-double-right orange"></i> Evaluation & Selection of Vendor<br /><i class="fa fa-angle-double-right orange"></i> Application Performance Optimization <br />            
+
+                </p></div>
+   
+    </div>
     <!--End Popup div--->
 
 <!-- =========================
@@ -1058,6 +1145,12 @@
             animatedOut: 'bounceOut',
             color: 'white',
         });
+        $("#FlyConst").animatedModal({
+            modalTarget: 'Flyconstruction',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'white',
+        });
         slider();
         //slider2();
         function slider(){
@@ -1065,7 +1158,7 @@
                 
             //$('#imageHome').css({ "-webkit-animation": "mymove 1s", "animation": "mymove 1s","animation": "hide 500ms linear","width":"10%", "visibility": "hidden" })
                
-                $('#imageHome2').css({ "-webkit-animation": "mymove 10s", "animation": "mymove 10s", "display": "block" })
+                $('#imageHome1').css({ "-webkit-animation": "mymove 10s", "animation": "mymove 10s", "display": "block" })
             $('.header').css({ "background": "url(../images/ThriHome3.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 2s ease", "-moz-transition": "all 2s ease", "-ms-transition": "all 2s ease", "transition": "all 2s ease", "width": "110%", "background-position": "center center" })          
             }, 5000);
             $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
