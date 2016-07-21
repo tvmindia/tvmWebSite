@@ -547,19 +547,19 @@
 
                     <!-- APPS SCREEN IMAGES -->
                     <div class="item">
-                        <a id="FlyConst" href="#Flyconstruction"><img src="images/FlyConProduct.jpg" width="60" height="60" alt="APPS SCREEN"/></a>
+                        <a id="FlyConst" href="#Flyconstruction"><img src="images/FlyConProduct copy.jpg" width="60" height="60" alt="APPS SCREEN"/></a>
                     </div>
                     <div class="item">
-                    <a id="ClnApp" href="#ClinicApp"><img src="images/ClinicAppProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                    <a id="ClnApp" href="#ClinicApp"><img src="images/ClinicAppProduct copy.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a id="Partc" href="#PartyEc"><img src="images/PartyecProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="Partc" href="#PartyEc"><img src="images/ThriPro copy1.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a id="FlyDocs" href="#FlyDocumentation"><img src="images/FlyDocProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="FlyDocs" href="#FlyDocumentation"><img src="images/FlyDocProduct copy.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a id="Tiqu" href="#Tiquesinn"><img src="images/TiquesinnProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="Tiqu" href="#Tiquesinn"><img src="images/Trailtiquespro.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                      
                     <div class="item">
@@ -1135,22 +1135,22 @@
 	<div class="container right_single_feature" style="font-size:16px;">               
 	          
           
-           <h4>An Online Partypoint Site Manages Events </h4>
-           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
-            <i class="fa fa-calculator orange"></i>  Calculation<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
-            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
-            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+           <h4>An upcoming professional e-commerce party planning platform in Qatar.</h4>
+           <div><span class="pe-7s-help2"></span></div>Our core activities includes<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-check-circle orange"></i>  Ballrooms booking<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Banquet Hall booking<br />
+            <i class="fa fa-calculator orange"></i>  Brand Activation<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Event Management Services<br /> 
+            <i class="fa fa-search orange"></i>  Event Catering<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i> Personal Events (Concerts)<br /><i class="fa fa-clock-o orange"></i>Corporate Event<br />
+            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Birthday Parties, Iftar Parties, Anniversary Parties, Theme Party New kids theme, New Year Party, Christmas Party, Graduation Party, Mock tail Party etc… <br /><i class="fa fa-pie-chart orange"></i>Further more Customized Cakes are one of the main attractions of our premium services.<br />
                         
 
                 </p></div>
    
     </div>
     <div id="FlyDocumentation" class="close-FlyDocumentation modal-body" style="background:url('')!important;"> 
-         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+         <img src="images/FlycnDoc.png" alt="" style="position:absolute!important;left:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1162,18 +1162,18 @@
        
     <h3><img src="images/flycnLogo.png" style="height:30px;" />Flycn Documentation Tool</h3>
     </div>
-	<div class="container right_single_feature" style="font-size:16px;">               
+	<div class="container right_single_feature" style="font-size:16px;margin-left:32%!important">               
 	          
-          
-           <h4>Application which can handle Documents connected with Data</h4>
-           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
-            <i class="fa fa-calculator orange"></i>  Calculation<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
-            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
-            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+         
+           <h4>An upcoming professional e-commerce party planning platform in Qatar.</h4>
+           <div><span class="pe-7s-help2"></span></div>Our core activities includes<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Ballrooms booking<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Banquet Hall booking<br />
+            <i class="fa fa-calculator orange"></i>  Brand Activation<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Event Management Services<br /> 
+            <i class="fa fa-search orange"></i>  Event Catering<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i> Personal Events (Concerts)<br /><i class="fa fa-clock-o orange"></i>Corporate Event<br />
+            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Birthday Parties, Iftar Parties, Anniversary Parties, Theme Party New kids theme, New Year Party, Christmas Party, Graduation Party, Mock tail Party etc… <br /><i class="fa fa-pie-chart orange"></i>Further more Customized Cakes are one of the main attractions of our premium services.<br />
                         
 
                 </p></div>

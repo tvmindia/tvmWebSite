@@ -86,6 +86,7 @@
     <Content Include="images\bg-1.jpg" />
     <Content Include="images\cliniApplogo.png" />
     <Content Include="images\ClinicApp.JPG" />
+    <Content Include="images\ClinicAppProduct copy.jpg" />
     <Content Include="images\ClinicAppProduct.jpg" />
     <Content Include="images\ClnApppop.PNG" />
     <Content Include="images\customerrelation.jpg" />
@@ -94,11 +95,14 @@
     <Content Include="images\dEVELOPER.PNG" />
     <Content Include="images\download_screen.png" />
     <Content Include="images\Fcon.JPG" />
+    <Content Include="images\FlycnDoc.PNG" />
     <Content Include="images\flycnLogo.png" />
     <Content Include="images\FlyCon.JPG" />
     <Content Include="images\FlyCon1.jpg" />
+    <Content Include="images\FlyConProduct copy.jpg" />
     <Content Include="images\FlyConProduct.JPG" />
     <Content Include="images\FlyDoc1.jpg" />
+    <Content Include="images\FlyDocProduct copy.jpg" />
     <Content Include="images\FlyDocProduct.JPG" />
     <Content Include="images\fun_bg.jpg" />
     <Content Include="images\home.jpg" />
@@ -127,11 +131,14 @@
     <Content Include="images\ThriHome4.png" />
     <Content Include="images\ThriHome5.jpg" />
     <Content Include="images\ThriPro copy.JPG" />
+    <Content Include="images\Thripro copy1.jpg" />
     <Content Include="images\Thripro.jpg" />
     <Content Include="images\TiquesinnProduct.jpg" />
     <Content Include="images\Trail.JPG" />
     <Content Include="images\Trail11.JPG" />
     <Content Include="images\Trail3.jpg" />
+    <Content Include="images\Trailtiquespro.jpg" />
+    <Content Include="images\Unt.jpg" />
     <Content Include="js\animatedModal.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\DefaultThri.js" />
