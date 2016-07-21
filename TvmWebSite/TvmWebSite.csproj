@@ -74,10 +74,8 @@
     <Content Include="Default.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\Pe-icon-7-stroke.svg" />
-    <Content Include="images\1.png" />
     <Content Include="images\12.JPG" />
     <Content Include="images\2.png" />
-    <Content Include="images\4.png" />
     <Content Include="images\5.png" />
     <Content Include="images\about_iphone.png" />
     <Content Include="images\application vendi.png" />
@@ -85,7 +83,6 @@
     <Content Include="images\av.png" />
     <Content Include="images\bg-1.jpg" />
     <Content Include="images\cliniApplogo.png" />
-    <Content Include="images\ClinicApp.JPG" />
     <Content Include="images\ClinicAppProduct copy.jpg" />
     <Content Include="images\ClinicAppProduct.jpg" />
     <Content Include="images\ClnApppop.PNG" />
@@ -134,11 +131,7 @@
     <Content Include="images\Thripro copy1.jpg" />
     <Content Include="images\Thripro.jpg" />
     <Content Include="images\TiquesinnProduct.jpg" />
-    <Content Include="images\Trail.JPG" />
-    <Content Include="images\Trail11.JPG" />
-    <Content Include="images\Trail3.jpg" />
     <Content Include="images\Trailtiquespro.jpg" />
-    <Content Include="images\Unt.jpg" />
     <Content Include="js\animatedModal.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\DefaultThri.js" />
