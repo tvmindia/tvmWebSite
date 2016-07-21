@@ -290,7 +290,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                  <!-- IMAGE -->
-                                                <img src="images/prjManag.png" alt=""/>
+                                                <img src="images/AboutUs/ThriPrjmanage.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Prj. Managers</h2>
@@ -306,7 +306,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                  <!-- IMAGE -->
-                                                <img src="images/architcct.PNG" alt=""/>
+                                                <img src="images/AboutUs/ThriArchitcct.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Architects</h2>
@@ -322,7 +322,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                  <!-- IMAGE -->
-                                                <img src="images/TEAMLEAD.png" alt=""/>
+                                                <img src="images/AboutUs/ThriTeamlead.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Team Leads</h2>
@@ -338,7 +338,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                 <!-- IMAGE -->
-                                                <img src="images/dEVELOPER.png" alt=""/>
+                                                <img src="images/AboutUs/ThriDeveloper.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Developers</h2>
@@ -354,7 +354,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                 <!-- IMAGE -->
-                                                <img src="images/DESIGN.png" alt=""/>
+                                                <img src="images/AboutUs/ThriDesigner.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Designers</h2>
@@ -370,7 +370,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-center">
                                                 <!-- IMAGE -->
-                                                <img src="images/CUSTORE.png" alt=""/>
+                                                <img src="images/AboutUs/ThriCro.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Customer Relation</h2>
@@ -547,7 +547,7 @@
 
                     <!-- APPS SCREEN IMAGES -->
                     <div class="item">
-                        <a id="FlyConst" href="#Flyconstruction"><img src="images/ProductImages/FlyConProduct copy.jpg" width="60" height="60" alt="APPS SCREEN"/></a>
+                        <a id="FlyConst" href="#Flyconstruction"><img src="images/ProductImages/TRAIL1.jpg" width="60" height="60" alt="APPS SCREEN"/></a>
                     </div>
                     <div class="item">
                     <a id="ClnApp" href="#ClinicApp"><img src="images/ProductImages/ClinicAppProduct copy.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
@@ -1150,7 +1150,7 @@
    
     </div>
     <div id="FlyDocumentation" class="close-FlyDocumentation modal-body" style="background:url('')!important;"> 
-         <img src="images/FlycnDoc.png" alt="" style="position:absolute!important;left:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+         <img src="images/FlycnDoc.png" alt="" style="position:absolute!important;left:0px!important;opacity:0.6;bottom:0!important;height:377px;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1165,22 +1165,22 @@
 	<div class="container right_single_feature" style="font-size:16px;margin-left:32%!important">               
 	          
          
-           <h4>An upcoming professional e-commerce party planning platform in Qatar.</h4>
+           <h4>Cant hold in word shoulds experience thas the Flycn tool</h4>
            <div><span class="pe-7s-help2"></span></div>Our core activities includes<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Ballrooms booking<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Banquet Hall booking<br />
-            <i class="fa fa-calculator orange"></i>  Brand Activation<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Event Management Services<br /> 
-            <i class="fa fa-search orange"></i>  Event Catering<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i> Personal Events (Concerts)<br /><i class="fa fa-clock-o orange"></i>Corporate Event<br />
-            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Birthday Parties, Iftar Parties, Anniversary Parties, Theme Party New kids theme, New Year Party, Christmas Party, Graduation Party, Mock tail Party etc… <br /><i class="fa fa-pie-chart orange"></i>Further more Customized Cakes are one of the main attractions of our premium services.<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Auto Synchronized approach<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  The very real time Data Processing<br />
+            <i class="fa fa-angle-right orange"></i>  Consisitency<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Multi Processing can handle complexity too<br /> 
+            <i class="fa fa-angle-right orange"></i>  Event Catering<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i> User Satisfaction<br /><i class="fa fa-angle-right orange"></i> Virtual human experience<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Minimum User controls<br /><i class="fa fa-angle-right orange"></i> Real-time aspects for each and every user.<br />
                         
 
                 </p></div>
    
     </div>
     <div id="Tiquesinn" class="close-Tiquesinn modal-body" style="background:url('')!important;"> 
-         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+         <img src="images/Tiquespop.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:350px;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1190,20 +1190,19 @@
         </div>      
     <div class="modal-header" style="text-align:center;margin-top:1.5%;">
        
-    <h3><img src="images/flycnLogo.png" style="height:30px;" />Flycn Construction Assistance</h3>
+    <h3><img src="images/TiquesLogo.png" style="height:35px;" />TiquesInn</h3>
     </div>
 	<div class="container right_single_feature" style="font-size:16px;">               
 	          
           
-           <h4>Application which can handle complexity in an automater manner</h4>
-           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
-            <i class="fa fa-calculator orange"></i>  Calculation<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
-            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
-            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+           <h4>Advertising Tool for showcase products</h4>
+           <div><span class="pe-7s-help2"></span></div>Platform support you in:<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Advertising through a new system<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Provide Easy access for both customer and retailer<br />
+            <i class="fa fa-calculator orange"></i>  Details on finger tip<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Initial investment reduces advertising cost<br /> 
+            <i class="fa fa-search orange"></i>  Online chat facility<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Customerized layout allows you comfort.<br /><i class="fa fa-clock-o orange"></i> Better Experience to your customers.<br />
                         
 
                 </p></div>
