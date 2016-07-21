@@ -88,7 +88,10 @@
     <Content Include="images\client_.png" />
     <Content Include="images\client_2.png" />
     <Content Include="images\client_3.png" />
+    <Content Include="images\cliniApplogo.png" />
     <Content Include="images\ClinicApp.JPG" />
+    <Content Include="images\ClinicAppProduct.jpg" />
+    <Content Include="images\ClnApppop.PNG" />
     <Content Include="images\customerrelation.jpg" />
     <Content Include="images\CUSTORE.PNG" />
     <Content Include="images\DESIGN.PNG" />
@@ -96,6 +99,7 @@
     <Content Include="images\download_screen.png" />
     <Content Include="images\Fcon.JPG" />
     <Content Include="images\Fdoc.JPG" />
+    <Content Include="images\flycnLogo.png" />
     <Content Include="images\FlyCon.JPG" />
     <Content Include="images\FlyCon1.jpg" />
     <Content Include="images\FlyConProduct.JPG" />
@@ -116,10 +120,13 @@
     <Content Include="images\logo.png" />
     <Content Include="images\mobiledevelopment copy.png" />
     <Content Include="images\partner-network.jpg" />
+    <Content Include="images\Partyec.png" />
+    <Content Include="images\PartyecLogo.png" />
     <Content Include="images\PartyecProduct.JPG" />
     <Content Include="images\PartyPro.jpg" />
     <Content Include="images\prjManag.PNG" />
     <Content Include="images\prlmanage.PNG" />
+    <Content Include="images\Slider03.png" />
     <Content Include="images\solutions-internet-tv.jpg" />
     <Content Include="images\TEAMLEAD.PNG" />
     <Content Include="images\testimonial.jpg" />
@@ -132,6 +139,7 @@
     <Content Include="images\ThriPro copy.JPG" />
     <Content Include="images\Thripro.jpg" />
     <Content Include="images\ThriPro1copy.JPG" />
+    <Content Include="images\TiquesinnProduct.jpg" />
     <Content Include="images\Trail.JPG" />
     <Content Include="images\Trail11.JPG" />
     <Content Include="images\Trail3.jpg" />

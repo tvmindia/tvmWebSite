@@ -293,7 +293,7 @@
                                                 <img src="images/prjManag.png" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
-                                                    <h2>Prj. Manager</h2>
+                                                    <h2>Prj. Managers</h2>
                                                     <h4><span>,</span> The Mould</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
@@ -309,7 +309,7 @@
                                                 <img src="images/architcct.PNG" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
-                                                    <h2>Architect</h2>
+                                                    <h2>Architects</h2>
                                                     <h4><span>,</span> The Milestone</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
@@ -325,7 +325,7 @@
                                                 <img src="images/TEAMLEAD.png" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
-                                                    <h2>Team Lead</h2>
+                                                    <h2>Team Leads</h2>
                                                     <h4><span>,</span> The Captain</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
@@ -341,7 +341,7 @@
                                                 <img src="images/dEVELOPER.png" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
-                                                    <h2>Developer</h2>
+                                                    <h2>Developers</h2>
                                                     <h4><span>,</span> The Code Cafe</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
@@ -357,7 +357,7 @@
                                                 <img src="images/DESIGN.png" alt=""/>
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
-                                                    <h2>Designer</h2>
+                                                    <h2>Designers</h2>
                                                     <h4><span>,</span> The UI magician</h4>
                                                     <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
                                                 </div>
@@ -550,20 +550,20 @@
                         <a id="FlyConst" href="#Flyconstruction"><img src="images/FlyConProduct.jpg" width="60" height="60" alt="APPS SCREEN"/></a>
                     </div>
                     <div class="item">
-                    <a href="images/1.png" rel="prettyPhoto[pp_gal]"><img src="images/Trail11.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                    <a id="ClnApp" href="#ClinicApp"><img src="images/ClinicAppProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a href="images/4.png" rel="prettyPhoto[pp_gal]"><img src="images/PartyecProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="Partc" href="#PartyEc"><img src="images/PartyecProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a href="images/ThriFlyD.png" rel="prettyPhoto[pp_gal]"><img src="images/FlyDocProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="FlyDocs" href="#FlyDocumentation"><img src="images/FlyDocProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     <div class="item">
-                        <a href="images/2.png" rel="prettyPhoto[pp_gal]"><img src="images/2.png" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="Tiqu" href="#Tiquesinn"><img src="images/TiquesinnProduct.jpg" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                      
                     <div class="item">
-                        <a href="images/5.png" rel="prettyPhoto[pp_gal]"><img src="images/5.png" width="60" height="60" alt="APPS SCREEN" /></a>
+                        <a id="Cweb" href="#CmsWebsite"><img src="images/5.png" width="60" height="60" alt="APPS SCREEN" /></a>
                     </div>
                     
                    
@@ -1059,7 +1059,8 @@
             </div>
         </div>--%>
      <!-- END SECTION WEBSITE -->
-     <div id="Flyconstruction" class="close-Flyconstruction modal-body"> 
+     <div id="Flyconstruction" class="close-Flyconstruction modal-body" style="background:url('')!important;"> 
+         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1069,21 +1070,171 @@
         </div>      
     <div class="modal-header" style="text-align:center;margin-top:1.5%;">
        
-    <h3>Clinic App</h3>
+    <h3><img src="images/flycnLogo.png" style="height:30px;" />Flycn Construction Assistance</h3>
     </div>
 	<div class="container right_single_feature" style="font-size:16px;">               
 	          
           
-           <h4>A Clinic Assistance Application</h4>
-           We support you in:<br/>         
-            <p><i class="fa fa-angle-double-right orange"></i> Feasibility Study of the Business Requirements<br />
-            <i class="fa fa-angle-double-right orange"></i> Translating business requirements to Functional and Technical requirements <br />
-            <i class="fa fa-angle-double-right orange"></i> Optimal Technical Solution/Architecture Design <br />
-            <i class="fa fa-angle-double-right orange"></i> Effort Estimation and staffing plans from estimated efforts<br /> 
-            <i class="fa fa-angle-double-right orange"></i> Estimation of Hardware, Software and Services Cost<br />
-            <i class="fa fa-angle-double-right orange"></i> Response to RFPs and RFIs <br /><i class="fa fa-angle-double-right orange"></i> Integration Architecture <br />
-            <i class="fa fa-angle-double-right orange"></i> Complex decisions like Make or Buy, In-Premises or Cloud, Web or Mobile <br /><i class="fa fa-angle-double-right orange"></i> Executing Proof of Concepts<br />
-            <i class="fa fa-angle-double-right orange"></i> Evaluation & Selection of Vendor<br /><i class="fa fa-angle-double-right orange"></i> Application Performance Optimization <br />            
+           <h4>Application which can handle complexity in an automater manner</h4>
+           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
+            <i class="fa fa-calculator orange"></i>  Calculation<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
+            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
+            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+                        
+
+                </p></div>
+   
+    </div>
+     <div id="ClinicApp" class="close-ClinicApp modal-body" style="background:url('')!important;"> 
+         <img src="images/ClnApppop.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.8;bottom:0!important;height:300px;" />
+        <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
+            <img src="images/logo.png" style="position:absolute;height:39px;"/>
+            <div class="single_fun_facts">
+                <i class="pe-7s-back" style="position: absolute;right:24px;font-size:38px;"></i>
+            </div>
+ 
+        </div>      
+    <div class="modal-header" style="text-align:center;margin-top:1.5%;">
+       
+    <h3><img src="images/cliniApplogo.png" style="height:30px;" /> Clinic APP</h3>
+    </div>
+	<div class="container right_single_feature" style="font-size:16px;">               
+	          
+          
+           <h4>Application which can able to automate a clinic</h4>
+           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i> User Registration<br />
+            <i class="fa fa-times orange" style="margin-left:5%"></i> Token Generation<br />
+            <i class="fa fa-file orange"></i>  Keep Each Visit Records<br />
+            <i class="fa fa-print orange" style="margin-left:5%"></i>  Support for Medicine Prescription<br /> 
+            <i class="fa fa-filter orange"></i>  Create Report basis of Records stored<br />
+            <i class="fa fa-bank orange" style="margin-left:5%"></i>  Medicine Stock in an optimized manner<br />
+            <i class="fa fa-clock-o orange"></i> Time Saving<br />
+                        
+
+                </p></div>
+   
+    </div>
+    <div id="PartyEc" class="close-PartyEc modal-body" style="background:url('')!important;"> 
+         <img src="images/Partyec.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:350px;" />
+        <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
+            <img src="images/logo.png" style="position:absolute;height:39px;"/>
+            <div class="single_fun_facts">
+                <i class="pe-7s-back" style="position: absolute;right:24px;font-size:38px;"></i>
+            </div>
+ 
+        </div>      
+    <div class="modal-header" style="text-align:center;margin-top:1.5%;">
+       
+    <h3><img src="images/PartyecLogo.png" style="height:30px;" />Partyec</h3>
+    </div>
+	<div class="container right_single_feature" style="font-size:16px;">               
+	          
+          
+           <h4>An Online Partypoint Site Manages Events </h4>
+           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
+            <i class="fa fa-calculator orange"></i>  Calculation<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
+            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
+            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+                        
+
+                </p></div>
+   
+    </div>
+    <div id="FlyDocumentation" class="close-FlyDocumentation modal-body" style="background:url('')!important;"> 
+         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+        <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
+            <img src="images/logo.png" style="position:absolute;height:39px;"/>
+            <div class="single_fun_facts">
+                <i class="pe-7s-back" style="position: absolute;right:24px;font-size:38px;"></i>
+            </div>
+ 
+        </div>      
+    <div class="modal-header" style="text-align:center;margin-top:1.5%;">
+       
+    <h3><img src="images/flycnLogo.png" style="height:30px;" />Flycn Documentation Tool</h3>
+    </div>
+	<div class="container right_single_feature" style="font-size:16px;">               
+	          
+          
+           <h4>Application which can handle Documents connected with Data</h4>
+           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
+            <i class="fa fa-calculator orange"></i>  Calculation<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
+            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
+            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+                        
+
+                </p></div>
+   
+    </div>
+    <div id="Tiquesinn" class="close-Tiquesinn modal-body" style="background:url('')!important;"> 
+         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+        <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
+            <img src="images/logo.png" style="position:absolute;height:39px;"/>
+            <div class="single_fun_facts">
+                <i class="pe-7s-back" style="position: absolute;right:24px;font-size:38px;"></i>
+            </div>
+ 
+        </div>      
+    <div class="modal-header" style="text-align:center;margin-top:1.5%;">
+       
+    <h3><img src="images/flycnLogo.png" style="height:30px;" />Flycn Construction Assistance</h3>
+    </div>
+	<div class="container right_single_feature" style="font-size:16px;">               
+	          
+          
+           <h4>Application which can handle complexity in an automater manner</h4>
+           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
+            <i class="fa fa-calculator orange"></i>  Calculation<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
+            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
+            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+                        
+
+                </p></div>
+   
+    </div>
+    <div id="CmsWebsite" class="close-CmsWebsite modal-body" style="background:url('')!important;"> 
+         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+        <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
+            <img src="images/logo.png" style="position:absolute;height:39px;"/>
+            <div class="single_fun_facts">
+                <i class="pe-7s-back" style="position: absolute;right:24px;font-size:38px;"></i>
+            </div>
+ 
+        </div>      
+    <div class="modal-header" style="text-align:center;margin-top:1.5%;">
+       
+    <h3><%--<img src="images/flycnLogo.png" style="height:30px;" />--%>CMS Website</h3>
+    </div>
+	<div class="container right_single_feature" style="font-size:16px;">               
+	          
+          
+           <h4>Application which can handle complexity in an automater manner</h4>
+           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
+            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
+            <i class="fa fa-calculator orange"></i>  Calculation<br />
+            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
+            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
+            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
+            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+                        
 
                 </p></div>
    
@@ -1147,6 +1298,36 @@
         });
         $("#FlyConst").animatedModal({
             modalTarget: 'Flyconstruction',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'white',
+        });
+        $("#ClnApp").animatedModal({
+            modalTarget: 'ClinicApp',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'white',
+        });
+        $("#Partc").animatedModal({
+            modalTarget: 'PartyEc',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'white',
+        });
+        $("#FlyDocs").animatedModal({
+            modalTarget: 'FlyDocumentation',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'white',
+        });
+        $("#Tiqu").animatedModal({
+            modalTarget: 'Tiquesinn',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'white',
+        });
+        $("#Cweb").animatedModal({
+            modalTarget: 'CmsWebsite',
             animatedIn: 'zoomIn',
             animatedOut: 'bounceOut',
             color: 'white',

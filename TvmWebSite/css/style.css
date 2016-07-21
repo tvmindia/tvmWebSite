@@ -1092,7 +1092,7 @@ select:-webkit-autofill {
 }
 
 .arrows path {
-	stroke: #A9A9A9;
+	stroke: orange;
 	fill: transparent;
 	stroke-width: 1px;	
 	animation: arrow 2s infinite;
