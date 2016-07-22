@@ -956,7 +956,9 @@ div.carousel-inner .item img {
     .subscribe_form .form-control {
         width: 100%
     }
+    
 }
+
 .subscription-success {
     color: #fff;
     text-align: center;
@@ -1128,4 +1130,37 @@ select:-webkit-autofill {
 .arrows path.a3 {	
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+.modalimage {
+    position:absolute!important;
+    right:0px!important;
+    opacity:0.6;
+    bottom:0!important;
+    height:477px;
+}
+@media (max-width: 600px){
+    .modalimage{
+        visibility:hidden;
+    }
+}
+@media (max-width: 1000px){
+    .modalimage{
+       height:250px!important;
+    }
+    .navstatic{
+        visibility:hidden!important;
+    }
+}
+.navstatic{
+        width:100%!important;
+        background-color:rgba(59, 59, 59, 0)!important;
+        height:0px!important;
+        position:absolute!important;
+        z-index:30!important;
+        top:0!important;
+        left:0!important;
+}
+.navstatic ul li a:hover{
+    background-color:transparent!important;
+    color:orange;
 }

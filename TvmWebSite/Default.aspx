@@ -112,9 +112,9 @@
             </nav>
 
             <div class="container home-container">
-                <%--<div style="width:100%!important;background-color:rgba(59, 59, 59, 0.7)!important;height:50px!important;position:absolute!important;z-index:30!important;top:0!important;left:0!important;">
-                    <img src="images/logo.png" alt="Logo" style="position:absolute;height:39px;"/>
-                    <ul class="nav navbar-nav navbar-right" style=">
+                <div class="navstatic">
+                    <%--<img src="images/logo.png" alt="Logo" style="position:absolute;height:39px;"/>--%>
+                    <ul class="nav navbar-nav navbar-right">
                             <!-- NAV -->
                             <li><a href="#HOME">HOME</a> </li>
                             <li><a href="#ABOUT">ABOUT US</a> </li>
@@ -122,7 +122,7 @@
                             <li><a href="#PRODUCTS">PRODUCTS</a> </li>
                             <li><a href="#CONTACT">CONTACT </a> </li>
                         </ul>
-                </div>--%>
+                </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="logo text-left">
@@ -188,7 +188,7 @@
                     <div class="col-md-6">
                         <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                         <!-- PHONE -->
-                            <img src="images/about_iphone.png" alt=""/>
+                            <img src="images/AboutUs/AboutUs.png" alt=""/>
                         </div>
                     </div>
                     <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -281,7 +281,8 @@
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="4"></li>
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="5"></li>
                             </ol>
-
+                            <p style="text-align:center;color:white!important;font-size:18px;">“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                
@@ -295,7 +296,7 @@
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Prj. Managers</h2>
                                                     <h4><span>,</span> The Mould</h4>
-                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                    <%--<p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>--%>
                                                 </div>
                                             </div>
                                         </div>
@@ -311,7 +312,7 @@
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Architects</h2>
                                                     <h4><span>,</span> The Milestone</h4>
-                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                    <%--<p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>--%>
                                                 </div>
                                             </div>
                                         </div>
@@ -327,7 +328,7 @@
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Team Leads</h2>
                                                     <h4><span>,</span> The Captain</h4>
-                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                    <%--<p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>--%>
                                                 </div>
                                             </div>
                                         </div>
@@ -343,7 +344,7 @@
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Developers</h2>
                                                     <h4><span>,</span> The Code Cafe</h4>
-                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                    <%--<p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>--%>
                                                 </div>
                                             </div>
                                         </div>
@@ -359,7 +360,7 @@
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Designers</h2>
                                                     <h4><span>,</span> The UI magician</h4>
-                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                    <%--<p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>--%>
                                                 </div>
                                             </div>
                                         </div>
@@ -375,7 +376,7 @@
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Customer Relation</h2>
                                                     <h4><span>,</span>Your Buddy</h4>
-                                                    <p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>
+                                                    <%--<p>“Our team comprises of people with profound experience in software development in many domain there by providing latest innovative IT solutions for various industries especially targeting the e-presence marketing practices for them.”</p>--%>
                                                 </div>
                                             </div>
                                         </div>
@@ -405,7 +406,7 @@
                     <!-- FEATURES SECTION TITLE -->
                     <div class="section_title wow fadeIn" data-wow-duration="1s">
                         <h2>SERVICES</h2>
-                        <p style="text-align:left!important">"You can buy a person's time; you can buy their physical presence at a given place; you can even buy a measured number of their skilled muscular motions per hour. But you can not buy enthusiasm . . . You can not buy loyalty . . . You can not buy the devotion of hearts, minds, or souls. You must earn these."<br /><p style="color:black!important;font-size:12px!important;text-align:right!important;margin-top:0px!important;">Clarence Francis, Former Chairmn of the Board General Foods Corporation</p></p>
+                        <%--<p style="text-align:left!important">"You can buy a person's time; you can buy their physical presence at a given place; you can even buy a measured number of their skilled muscular motions per hour. But you can not buy enthusiasm . . . You can not buy loyalty . . . You can not buy the devotion of hearts, minds, or souls. You must earn these."<br /><p style="color:black!important;font-size:12px!important;text-align:right!important;margin-top:0px!important;">Clarence Francis, Former Chairmn of the Board General Foods Corporation</p></p>--%>
                     </div>
                     <!-- END FEATURES SECTION TITLE -->
                 </div>
@@ -1058,9 +1059,9 @@
                 <!--Your modal content goes here-->
             </div>
         </div>--%>
-     <!-- END SECTION WEBSITE -->
-     <div id="Flyconstruction" class="close-Flyconstruction modal-body" style="background:url('')!important;"> 
-         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+    <!--PRODUCT DISCRIPTION POPUP--->
+    <div id="Flyconstruction" class="close-Flyconstruction modal-body" style="background:url('')!important;"> 
+         <img src="images/Slider03.png" class="modalimage" alt=""/>
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1077,20 +1078,20 @@
           
            <h4>Application which can handle complexity in an automater manner</h4>
            <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
-            <i class="fa fa-calculator orange"></i>  Calculation<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
-            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
-            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Data Collection<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Work Reminder<br />
+            <i class="fa fa-angle-right orange"></i>  Calculation<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
+            <i class="fa fa-angle-right orange"></i>  Shedule creation based on details provided<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-angle-right orange"></i>Time to time reminders<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-angle-right orange"></i>Accurate Statistic Reporting<br />
                         
 
                 </p></div>
    
     </div>
-     <div id="ClinicApp" class="close-ClinicApp modal-body" style="background:url('')!important;"> 
-         <img src="images/ClnApppop.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.8;bottom:0!important;height:300px;" />
+    <div id="ClinicApp" class="close-ClinicApp modal-body" style="background:url('')!important;"> 
+         <img src="images/ClnApppop.png" class="modalimage" alt="" style="height:300px;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1107,20 +1108,20 @@
           
            <h4>Application which can able to automate a clinic</h4>
            <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i> User Registration<br />
-            <i class="fa fa-times orange" style="margin-left:5%"></i> Token Generation<br />
-            <i class="fa fa-file orange"></i>  Keep Each Visit Records<br />
-            <i class="fa fa-print orange" style="margin-left:5%"></i>  Support for Medicine Prescription<br /> 
-            <i class="fa fa-filter orange"></i>  Create Report basis of Records stored<br />
-            <i class="fa fa-bank orange" style="margin-left:5%"></i>  Medicine Stock in an optimized manner<br />
-            <i class="fa fa-clock-o orange"></i> Time Saving<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i> User Registration<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i> Token Generation<br />
+            <i class="fa fa-angle-right orange"></i>  Keep Each Visit Records<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Support for Medicine Prescription<br /> 
+            <i class="fa fa-angle-right orange"></i>  Create Report basis of Records stored<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Medicine Stock in an optimized manner<br />
+            <i class="fa fa-angle-right orange"></i> Time Saving<br />
                         
 
                 </p></div>
    
     </div>
     <div id="PartyEc" class="close-PartyEc modal-body" style="background:url('')!important;"> 
-         <img src="images/Partyec.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:350px;" />
+         <img src="images/Partyec.png" class="modalimage" alt="" style="height:350px;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1137,20 +1138,20 @@
           
            <h4>An upcoming professional e-commerce party planning platform in Qatar.</h4>
            <div><span class="pe-7s-help2"></span></div>Our core activities includes<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-check-circle orange"></i>  Ballrooms booking<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Banquet Hall booking<br />
-            <i class="fa fa-calculator orange"></i>  Brand Activation<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Event Management Services<br /> 
-            <i class="fa fa-search orange"></i>  Event Catering<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i> Personal Events (Concerts)<br /><i class="fa fa-clock-o orange"></i>Corporate Event<br />
-            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Birthday Parties, Iftar Parties, Anniversary Parties, Theme Party New kids theme, New Year Party, Christmas Party, Graduation Party, Mock tail Party etc… <br /><i class="fa fa-pie-chart orange"></i>Further more Customized Cakes are one of the main attractions of our premium services.<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Ballrooms booking<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Banquet Hall booking<br />
+            <i class="fa fa-angle-right orange"></i>  Brand Activation<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Event Management Services<br /> 
+            <i class="fa fa-angle-right orange"></i>  Event Catering<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i> Personal Events (Concerts)<br /><i class="fa fa-angle-right orange"></i>Corporate Event<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Birthday Parties, Iftar Parties, Anniversary Parties, Theme Party New kids theme, New Year Party, Christmas Party, Graduation Party, Mock tail Party etc… <br /><i class="fa fa-angle-right orange"></i>Further more Customized Cakes are one of the main attractions of our premium services.<br />
                         
 
                 </p></div>
    
     </div>
     <div id="FlyDocumentation" class="close-FlyDocumentation modal-body" style="background:url('')!important;"> 
-         <img src="images/FlycnDoc.png" alt="" style="position:absolute!important;left:0px!important;opacity:0.6;bottom:0!important;height:377px;" />
+         <img src="images/FlycnDoc.png" class="modalimage" alt="" style="height:377px;left:0px!important;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1180,7 +1181,7 @@
    
     </div>
     <div id="Tiquesinn" class="close-Tiquesinn modal-body" style="background:url('')!important;"> 
-         <img src="images/Tiquespop.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:350px;" />
+         <img src="images/Tiquespop.png" class="modalimage" alt="" style="height:350px;" />
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1197,19 +1198,19 @@
           
            <h4>Advertising Tool for showcase products</h4>
            <div><span class="pe-7s-help2"></span></div>Platform support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Advertising through a new system<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Provide Easy access for both customer and retailer<br />
-            <i class="fa fa-calculator orange"></i>  Details on finger tip<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Initial investment reduces advertising cost<br /> 
-            <i class="fa fa-search orange"></i>  Online chat facility<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Customerized layout allows you comfort.<br /><i class="fa fa-clock-o orange"></i> Better Experience to your customers.<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Advertising through a new system<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Provide Easy access for both customer and retailer<br />
+            <i class="fa fa-angle-right orange"></i>  Details on finger tip<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Initial investment reduces advertising cost<br /> 
+            <i class="fa fa-angle-right orange"></i>  Online chat facility<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Customerized layout allows you comfort.<br /><i class="fa fa-angle-right orange"></i> Better Experience to your customers.<br />
                         
 
                 </p></div>
    
     </div>
     <div id="CmsWebsite" class="close-CmsWebsite modal-body" style="background:url('')!important;"> 
-         <img src="images/Slider03.png" alt="" style="position:absolute!important;right:0px!important;opacity:0.6;bottom:0!important;height:477px;" />
+         <%--<img src="images/Slider03.png" alt="" class="modalimage" style="height:477px;" />--%>
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
             <img src="images/logo.png" style="position:absolute;height:39px;"/>
             <div class="single_fun_facts">
@@ -1226,20 +1227,21 @@
           
            <h4>Application which can handle complexity in an automater manner</h4>
            <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-database orange"></i>  Data Collection<br />
-            <i class="fa fa-recycle orange" style="margin-left:5%"></i>  Work Reminder<br />
-            <i class="fa fa-calculator orange"></i>  Calculation<br />
-            <i class="fa fa-adjust orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
-            <i class="fa fa-search orange"></i>  Shedule creation based on details provided<br />
-            <i class="fa fa-sitemap orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-clock-o orange"></i>Time to time reminders<br />
-            <i class="fa fa-shield orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-pie-chart orange"></i>Accurate Statistic Reporting<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Data Collection<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Work Reminder<br />
+            <i class="fa fa-angle-right orange"></i>  Calculation<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
+            <i class="fa fa-angle-right orange"></i>  Shedule creation based on details provided<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-angle-right orange"></i>Time to time reminders<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-angle-right orange"></i>Accurate Statistic Reporting<br />
                         
 
                 </p></div>
    
     </div>
+    <!--END PRODUCT DISCRIPTION POPUP--->
     <!--End Popup div--->
-
+    <!-- END SECTION WEBSITE -->
 <!-- =========================
      SCRIPTS 
 ============================== -->

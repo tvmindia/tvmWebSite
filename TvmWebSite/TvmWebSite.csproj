@@ -76,6 +76,7 @@
     <Content Include="fonts\Pe-icon-7-stroke.svg" />
     <Content Include="images\12.JPG" />
     <Content Include="images\2.png" />
+    <Content Include="images\AboutUs\AboutUs.PNG" />
     <Content Include="images\ProductImages\5.png" />
     <Content Include="images\about_iphone.png" />
     <Content Include="images\application vendi.png" />
