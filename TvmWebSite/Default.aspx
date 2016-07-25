@@ -31,7 +31,7 @@
     <link href="css/responsive.css" rel="stylesheet" />
     <link href="animate.min.css" rel="stylesheet" />
     <link href="normalize.min.css" rel="stylesheet" />
-  
+    
     <style>
         .orange{
             color:darkorange;
@@ -61,6 +61,9 @@
     from {top: -400px;}
     to {top: 0px;}
 } 
+.modal-body p{
+    font-weight:500!important;
+}
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -1053,17 +1056,7 @@
                         
 				</div>
 			</div>
-    <%--<div id="animatedModal">
-            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-animatedModal"> 
-                CLOSE MODAL
-            </div>
-                
-            <div class="modal-content">
-                <!--Your modal content goes here-->
-            </div>
-        </div>--%>
-    <!--PRODUCT DISCRIPTION POPUP--->
+      <!--PRODUCT DISCRIPTION POPUP--->
     <div id="Flyconstruction" class="close-Flyconstruction modal-body" style="background:url('')!important;"> 
          <img src="images/Slider03.png" class="modalimage" alt=""/>
         <div style="width:100%;background-color:rgba(59, 59, 59, 0.7);height:6%;top:0px!important;position:absolute;left:0px!important;">
@@ -1082,7 +1075,7 @@
           
            <h4>Application which can handle complexity in an automater manner</h4>
            <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Data Collection<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;font-weight:500!important;"><i class="fa fa-angle-right orange"></i>  Data Collection<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Work Reminder<br />
             <i class="fa fa-angle-right orange"></i>  Calculation<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
@@ -1112,7 +1105,7 @@
           
            <h4>Application which can able to automate a clinic</h4>
            <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i> User Registration<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;font-weight:500!important;"><i class="fa fa-angle-right orange"></i> User Registration<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i> Token Generation<br />
             <i class="fa fa-angle-right orange"></i>  Keep Each Visit Records<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Support for Medicine Prescription<br /> 
@@ -1142,7 +1135,7 @@
           
            <h4>An upcoming professional e-commerce party planning platform in Qatar.</h4>
            <div><span class="pe-7s-help2"></span></div>Our core activities includes<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Ballrooms booking<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;font-weight:500!important;"><i class="fa fa-angle-right orange"></i>  Ballrooms booking<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Banquet Hall booking<br />
             <i class="fa fa-angle-right orange"></i>  Brand Activation<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Event Management Services<br /> 
@@ -1172,7 +1165,7 @@
          
            <h4>Cant hold in word shoulds experience thas the Flycn tool</h4>
            <div><span class="pe-7s-help2"></span></div>Our core activities includes<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Auto Synchronized approach<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;font-weight:500!important;"><i class="fa fa-angle-right orange"></i>  Auto Synchronized approach<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  The very real time Data Processing<br />
             <i class="fa fa-angle-right orange"></i>  Consisitency<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Multi Processing can handle complexity too<br /> 
@@ -1202,7 +1195,7 @@
           
            <h4>Advertising Tool for showcase products</h4>
            <div><span class="pe-7s-help2"></span></div>Platform support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Advertising through a new system<br />
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;font-weight:500!important;"><i class="fa fa-angle-right orange"></i>  Advertising through a new system<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Provide Easy access for both customer and retailer<br />
             <i class="fa fa-angle-right orange"></i>  Details on finger tip<br />
             <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Initial investment reduces advertising cost<br /> 
@@ -1263,7 +1256,7 @@
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/animatedModal.js"></script>
-   
+   <script src="js/DefaultThri.js"></script>
     <script>
         $("#SoftSol").animatedModal({
             modalTarget: 'SOFTSOLUTION',
@@ -1337,6 +1330,7 @@
             animatedOut: 'bounceOut',
             color: 'white',
         });
+        
         $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
         $('.home_text h1').css({ "font-family": "Baskerville Old Face","font-size":"56px" })
         $('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })

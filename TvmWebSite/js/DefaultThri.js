@@ -1,26 +1,27 @@
-﻿$("document").ready(function(e){
-$(".btn btn-default submit-btn form_submit").live(
-      {
-          click: function (e) {
-              var User = new Object();
-              User.name=$('#name').val();
-              User.emali=$('#email').val();
-              User.subject=$('#subject').val();
-              User.message=$('#message').val();
-              result = InsertUser(User);
-              return false;
-          }
-      })
+﻿$("document").ready(function (e) {
+
 });
+function SendMail()
+{
 
-function InsertUser(User) {
+    var Main = new Object();
+    Main.name = $('#name').val();
+    Main.email = $('#email').val();
+    Main.subject = $('#subject').val();
+    Main.message = $('#message').val();
+    result = InsertUser(Main);
+    return result;
+}
 
-    var data = "{'userObj':" + JSON.stringify(User) + "}";
+function InsertUser(Main) {
 
-    jsonResult = getJsonData(data, "../Default.aspx/NewUser");
-    var table = {};
-    table = JSON.parse(jsonResult.d);
-    return table;
+
+    var data = "{'userObj':" + JSON.stringify(Main) + "}";
+
+    jsonResult = getJsonData(data, "../Default.aspx/SendMail");
+    var msg;
+    msg =jsonResult.d;
+    return msg;
 
 }
 function getJsonData(data, page) {

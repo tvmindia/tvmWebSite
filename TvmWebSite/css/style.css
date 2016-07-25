@@ -536,6 +536,7 @@ div.carousel-inner .item img {
 @media (min-width: 991px) and (max-width: 1200px) {
     .right_single_feature {
         margin-left: -60px;
+        
     }
     .left_single_feature {
         margin-right: -60px;

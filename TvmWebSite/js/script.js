@@ -281,32 +281,34 @@ $(document).ready(function() {
             $(".form_error .message_error").addClass("hide").removeClass("show");
         }
         if (name && emaild && message) {
-            $.ajax({
-                url: 'contact.php',
-                data: {
-                    name: name,
-                    emaild: emaild,
-                    subject: subject,
-                    message: message
-                },
-                type: 'POST',
-                success: function(data) {
-                    $(".Sucess").show();
-                    $(".Sucess").fadeIn(2000);
-                    $(".Sucess").html("<i class='fa fa-check'></i> Dear <b>" + name + "</b> Thank you for your inquiry we will respond to you as soon as possible!");
-                    $("#Name").val("");
-                    $("#Email").val("");
-                    $("#Subject").val("");
-                    $("#Message").val("");
-                    $(".form_error .name_error, .form_error .email_error, .form_error .email_val_error, .form_error .message_error").addClass("hide").removeClass("show");
-                    $("#name").val("");
-                    $("#email").val("");
-                    $("#subject").val("");
-                    $("#message").val("");
+         
+            var res = SendMail();
+            if (res == "sorry")
+            {
+                alert("Server Busy..");
+                return false;
+            }
+            else {
+                $(".Sucess").show();
+                $(".Sucess").fadeIn(2000);
+                $(".Sucess").html("<i class='fa fa-check'></i> Dear <b>" + name + "</b> Thank you for your inquiry we will respond to you as soon as possible!");
+                $("#Name").val("");
+                $("#Email").val("");
+                $("#Subject").val("");
+                $("#Message").val("");
+                $(".form_error .name_error, .form_error .email_error, .form_error .email_val_error, .form_error .message_error").addClass("hide").removeClass("show");
+                $("#name").val("");
+                $("#email").val("");
+                $("#subject").val("");
+                $("#message").val("");
+                return true;
+            }
+           
+                    
                 }
-            });
-        }
-        return false;
+            
+       
+       
     });
 });
 
