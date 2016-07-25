@@ -45,13 +45,22 @@
              border-bottom:3px solid orange;           
              /*word-spacing:4px!important;  
              letter-spacing:1px!important;  
-             line-height:20px;*/         
+             line-height:20px;*/   
+             font-weight: 500!important;      
              }
         h4{
             line-height:22px!important;
 
         }
-       
+        @-webkit-keyframes mymove {
+    from {top: -400px;}
+    to {top: 0px;}
+}
+
+@keyframes mymove {
+    from {top: -400px;}
+    to {top: 0px;}
+} 
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -80,7 +89,7 @@
 ============================== -->
     <section class="header parallax home-parallax page" id="HOME">
         <h2></h2>
-        <div class="section_overlay1">
+        <div class="section_overlay">
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -113,7 +122,6 @@
 
             <div class="container home-container">
                 <div class="navstatic">
-                    <%--<img src="images/logo.png" alt="Logo" style="position:absolute;height:39px;"/>--%>
                     <ul class="nav navbar-nav navbar-right">
                             <!-- NAV -->
                             <li><a href="#HOME">HOME</a> </li>
@@ -139,16 +147,12 @@
                             <h1 style="font-family:'Brush Script MT'!important;font-size:72PX!important;text-transform:none!important;">Thrithvam</h1>
                             <p style="font-family:'Baskerville Old Face'!important;font-size:x-large!important;">We promote your business to the next level</p>
                         </div>
-                    </div>
-                    <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5">
+                    </div> 
+                    <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5" style="display:none!important">
                         <div class="home-iphone">
                             <img src="images/ThriHome4.png" alt=""/>
                         </div>
-                    </div>
-                    <div id="imageHome1" class="col-md-3 col-md-offset-1 col-sm-4" style="display:none;">
-                        <div class="home-iphone">
-                            <img src="images/iPhone_Home1.png" alt=""/>
-                        </div>
+                             
                     </div>
                     
                 </div>
@@ -1333,61 +1337,80 @@
             animatedOut: 'bounceOut',
             color: 'white',
         });
+        $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
+        $('.home_text h1').css({ "font-family": "Baskerville Old Face","font-size":"56px" })
+        $('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
+        $('.home_text p').css({ "font-family": "Brush Script MT" })
+        $('#logobig').fadeOut(4999);
+        $('.home_text h1').fadeOut(4999);
+        $('.home_text p').fadeOut(4999);
+        
+        slider2();
         slider();
-        //slider2();
-        function slider(){
+        function slider2() {
+            
             setTimeout(function () {
                 
-            //$('#imageHome').css({ "-webkit-animation": "mymove 1s", "animation": "mymove 1s","animation": "hide 500ms linear","width":"10%", "visibility": "hidden" })
-               
-                $('#imageHome1').css({ "-webkit-animation": "mymove 10s", "animation": "mymove 10s", "display": "block" })
-            $('.header').css({ "background": "url(../images/ThriHome3.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 2s ease", "-moz-transition": "all 2s ease", "-ms-transition": "all 2s ease", "transition": "all 2s ease", "width": "110%", "background-position": "center center" })          
+                $('.header').css({ "background": "url(../images/SoftSolution.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "130%", "background-position": "center center" })
+                
             }, 5000);
-            $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
-            $('.home_text h1').css({ "font-family": "Brush Script MT" })
-            $('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
-            $('.home_text p').css({ "font-family": "Baskerville Old Face" })
-            $('#logobig').fadeOut(4999);
-            $('.home_text h1').fadeOut(4999);
-            $('.home_text p').fadeOut(4999);
-            $('#imageHome').fadeOut(4999);
             setTimeout(function () {
-                $('.home_text h1').html('cheriesh your future').animate({ 'opacity': 1 })
-                $('.home_text h1').css({ "font-family": "Baskerville Old Face" })
-                $('.home_text h1').animate({ 'font-size': '75px' })
-                $('.home_text p').html('Technology awaits for you...').animate({ 'opacity': 1 })
-                $('.home_text p').css({ "font-family": "Brush Script MT" })
-               
-            $('.home_text h1').fadeIn(1100);
-            $('.home_text p').fadeIn(1100);
-        $('.header').css({ "background": "url(../images/bg-1.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 2s ease", "-moz-transition": "all 2s ease", "-ms-transition": "all 2s ease", "transition": "all 2s ease", "width": "105%", "background-position": "center center" })
-        $('#imageHome1').css({ "-webkit-animation": "mymove 10s", "animation": "mymove 10s", "display": "block" })
-        }, 10000);
-
-        setTimeout(slider, 15000);
-        }
-        //function slider2() {
-        //    setTimeout(function () {
-               
-
-        //        $('.home_text h1').html('cheriesh your future').animate({ 'opacity': 1 })
-        //        $('.home_text h1').css({"font-family": "Baskerville Old Face" })
-        //        $('.home_text h1').animate({ 'font-size': '75px' })
-        //        $('.home_text p').html('Technology awaits for you...').animate({ 'opacity': 1 })
-        //        $('.home_text p').css({"font-family": "Brush Script MT" })
+                $('.header').css({ "background": "url(../images/DigitMarket.JPG)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "100%", "background-position": "center center" })
                 
+          
+            }, 10000);
+            setTimeout(function () {
 
-        //    }, 1000);
-        //    setTimeout(function () {
-        //        $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
-        //        $('.home_text h1').css({"font-family": "Brush Script MT" })
-        //        $('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
-        //        $('.home_text p').css({ "font-family": "Baskerville Old Face" })
+                $('.header').css({ "background": "url(../images/ThriHome3.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "110%", "background-position": "center center" })
+              
+            }, 15000);
+            
+           
+        setTimeout(slider2, 16003);
+        }
+        function slider() {
+
+            setTimeout(function () {
+                $('.home_text h1').fadeIn(199);
+                $('.home_text p').fadeIn(199);
+                $('.home_text h1').html('Software Solutioning').animate({ 'opacity': 1 })
+                $('.home_text p').html('Converting your business requirement').animate({ 'opacity': 1 })
+                $('.home_text').css({ "margin-left": "70%", "width": "100%" })
+                $('.home_text h1').css({ "color": "Red", "transition": "mymove 6s ease" })
+                $('.home_text p').css({ "color": "violet", "transition": "mymove 6s ease" })
                
-        //    }, 1000);
+                $('.home_text h1').fadeOut(5001);
+                $('.home_text p').fadeOut(4999);
+            }, 5000);
+            setTimeout(function () {
+                $('.home_text h1').fadeIn(99);
+                $('.home_text p').fadeIn(99);
+                $('.home_text h1').html('Digital Marketing').animate({ 'opacity': 1 })
+                $('.home_text').css({ "margin-left": " " })
+                $('.home_text p').html('The marketing industry is witnessing a tectonic shift towards digital marketing strategies.').animate({ 'opacity': 1 })
+                $('.home_text h1').css({ "color": "Blue" })
+                $('.home_text p').css({ "color": "pink" })
+                
+                $('.home_text h1').fadeOut(5001);
+                $('.home_text p').fadeOut(4999);
+            }, 10000);
+            setTimeout(function () {
+                $('.home_text h1').fadeIn(99);
+                $('.home_text p').fadeIn(99);
+                 $('.home_text h1').html('Mobile Application').animate({ 'opacity': 1 })
+                $('.home_text p').html('The mobile penetration and along with it the demand for access to business information over mobile devices').animate({ 'opacity': 1 })//
+                $('.home_text h1').css({ "color": "Gray" })
+                $('.home_text p').css({ "color": "pink" })
+                
+                $('.home_text h1').fadeOut(5001);
+                $('.home_text p').fadeOut(5000);
+            }, 15000);
 
-        //    setTimeout(slider2, 5000);
-        //}
+            
+
+            setTimeout(slider, 16003);
+        }
+        
             </script>
    
 
