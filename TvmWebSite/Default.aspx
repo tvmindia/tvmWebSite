@@ -13,6 +13,8 @@
     <!-- Google Font -->
     <link href='css/goo1css.css' rel='stylesheet' type='text/css'/>
     <link href='css/googlecss.css' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+    <link href='//fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'/>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- Owl Carousel Assets -->
@@ -31,8 +33,10 @@
     <link href="css/responsive.css" rel="stylesheet" />
     <link href="animate.min.css" rel="stylesheet" />
     <link href="normalize.min.css" rel="stylesheet" />
+ 
     
     <style>
+         /*@font-face {font-family: ThriFont;src:url(../fonts/Lobster_1.3.otf);}*/
         .orange{
             color:darkorange;
             }
@@ -92,7 +96,7 @@
 ============================== -->
     <section class="header parallax home-parallax page" id="HOME">
         <h2></h2>
-        <div class="section_overlay">
+        <div class="section_overlay1">
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -147,8 +151,9 @@
                     <div class="col-md-8 col-sm-8">
                         <div class="home_text">
                             <!-- TITLE AND DESC -->
-                            <h1 style="font-family:'Brush Script MT'!important;font-size:72PX!important;text-transform:none!important;">Thrithvam</h1>
-                            <p style="font-family:'Baskerville Old Face'!important;font-size:x-large!important;">We promote your business to the next level</p>
+                            
+                            <h1 style="font-family:Lobster !important;font-size:72PX!important;text-transform:none!important;color:white;">T hrithvam</h1>
+                            <p style="font-family:'Baskerville Old Face'!important;font-size:x-large!important;color:#D86E3F;">We promote your business to the next level</p>
                         </div>
                     </div> 
                     <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5" style="display:none!important">
@@ -1098,20 +1103,20 @@
         </div>      
     <div class="modal-header" style="text-align:center;margin-top:1.5%;">
        
-    <h3><img src="images/cliniApplogo.png" style="height:30px;" /> Clinic APP</h3>
+    <h3><img src="images/cliniApplogo.png" style="height:30px;" /> Clinic Light</h3>
     </div>
 	<div class="container right_single_feature" style="font-size:16px;">               
 	          
           
-           <h4>Application which can able to automate a clinic</h4>
-           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;font-weight:500!important;"><i class="fa fa-angle-right orange"></i> User Registration<br />
-            <i class="fa fa-angle-right orange" style="margin-left:5%"></i> Token Generation<br />
-            <i class="fa fa-angle-right orange"></i>  Keep Each Visit Records<br />
-            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Support for Medicine Prescription<br /> 
-            <i class="fa fa-angle-right orange"></i>  Create Report basis of Records stored<br />
-            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Medicine Stock in an optimized manner<br />
-            <i class="fa fa-angle-right orange"></i> Time Saving<br />
+           <h4>A perfect clinic management software for small clinics. A simple management tool for individual practitioners and small clinics, and a low cost choice for startups.</h4>
+           <div><span class="pe-7s-help2"></span></div>Highlights<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;font-weight:500!important;"><i class="fa fa-angle-right orange"></i> A complete clinic management solution <br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  A powerful online tool, No need of any installation <br />
+            <i class="fa fa-angle-right orange"></i>  Works in Desktops, Laptops and Tabs <br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Integrated mobile app<br /> 
+            <i class="fa fa-angle-right orange"></i>  Patient registration to stock management <br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i> Offline-Online sync system.<br />
+            <i class="fa fa-angle-right orange"></i>  Access from anywhere anytime.<br />
                         
 
                 </p></div>
@@ -1331,13 +1336,13 @@
             color: 'white',
         });
         
-        $('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
-        $('.home_text h1').css({ "font-family": "Baskerville Old Face","font-size":"56px" })
-        $('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
-        $('.home_text p').css({ "font-family": "Brush Script MT" })
+        //$('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
+        //$('.home_text h1').css({ "font-family": "Baskerville Old Face","font-size":"56px" })
+        //$('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
+        //$('.home_text p').css({ "font-family": "Brush Script MT" })
         $('#logobig').fadeOut(4999);
-        $('.home_text h1').fadeOut(4999);
-        $('.home_text p').fadeOut(4999);
+        $('.home_text h1').fadeOut(4998);
+        $('.home_text p').fadeOut(4998);
         
         slider2();
         slider();
@@ -1345,13 +1350,12 @@
             
             setTimeout(function () {
                 
-                $('.header').css({ "background": "url(../images/SoftSolution.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "130%", "background-position": "center center" })
+                $('.header').css({ "background": "url(../images/SoftSolution.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "135%", "background-position": "center center" })
                 
             }, 5000);
             setTimeout(function () {
-                $('.header').css({ "background": "url(../images/DigitMarket.JPG)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "100%", "background-position": "center center" })
-                
-          
+                $('.header').css({ "background": "url(../images/DigitMarket.JPG)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "110%", "background-position": "center center" })
+                          
             }, 10000);
             setTimeout(function () {
 
@@ -1369,9 +1373,9 @@
                 $('.home_text p').fadeIn(199);
                 $('.home_text h1').html('Software Solutioning').animate({ 'opacity': 1 })
                 $('.home_text p').html('Converting your business requirement').animate({ 'opacity': 1 })
-                $('.home_text').css({ "margin-left": "70%", "width": "100%" })
-                $('.home_text h1').css({ "color": "Red", "transition": "mymove 6s ease" })
-                $('.home_text p').css({ "color": "violet", "transition": "mymove 6s ease" })
+                $('.home_text').css({ "margin-left": "60%", "width": "100%" })
+                $('.home_text h1').css({ "color": "#400D12", "transition": "mymove 6s ease", "font-family": "Playfair Display","font-size":"56px" })
+                $('.home_text p').css({ "color": "#217C7E", "transition": "mymove 6s ease", "font-family": "Lobster" })
                
                 $('.home_text h1').fadeOut(5001);
                 $('.home_text p').fadeOut(4999);
@@ -1382,8 +1386,8 @@
                 $('.home_text h1').html('Digital Marketing').animate({ 'opacity': 1 })
                 $('.home_text').css({ "margin-left": " " })
                 $('.home_text p').html('The marketing industry is witnessing a tectonic shift towards digital marketing strategies.').animate({ 'opacity': 1 })
-                $('.home_text h1').css({ "color": "Blue" })
-                $('.home_text p').css({ "color": "pink" })
+                $('.home_text h1').css({ "color": "#003399" })
+                $('.home_text p').css({ "color": "#00628b" })
                 
                 $('.home_text h1').fadeOut(5001);
                 $('.home_text p').fadeOut(4999);
@@ -1393,15 +1397,12 @@
                 $('.home_text p').fadeIn(99);
                  $('.home_text h1').html('Mobile Application').animate({ 'opacity': 1 })
                 $('.home_text p').html('The mobile penetration and along with it the demand for access to business information over mobile devices').animate({ 'opacity': 1 })//
-                $('.home_text h1').css({ "color": "Gray" })
-                $('.home_text p').css({ "color": "pink" })
+                $('.home_text h1').css({ "color": "#FFFF81" })
+                $('.home_text p').css({ "color": "#0099CC" })
                 
                 $('.home_text h1').fadeOut(5001);
                 $('.home_text p').fadeOut(5000);
             }, 15000);
-
-            
-
             setTimeout(slider, 16003);
         }
         

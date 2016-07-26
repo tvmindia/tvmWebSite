@@ -60,6 +60,7 @@
     <Content Include="animate.min.css" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\css.css" />
     <Content Include="css\demoadpacks.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\goo1css.css" />
@@ -79,6 +80,7 @@
     <Content Include="images\AboutUs\AboutUs.PNG" />
     <Content Include="images\DigitalMarket.png" />
     <Content Include="images\DigitMarket.JPG" />
+    <Content Include="images\DigitMarketT.jpg" />
     <Content Include="images\MobDevelopment.png" />
     <Content Include="images\ProductImages\5.png" />
     <Content Include="images\about_iphone.png" />
@@ -187,6 +189,7 @@
     <Content Include="fonts\Pe-icon-7-stroke.woff" />
     <Content Include="fonts\trench.100.otf" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="fonts\Lobster_1.3.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
