@@ -68,6 +68,16 @@
 .modal-body p{
     font-weight:500!important;
 }
+.section_overlay1
+{
+   
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+18,000000+47,000000+47,000000+74&0.65+8,0+68 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 8%, rgba(0,0,0,0.54) 18%, rgba(0,0,0,0.23) 47%, rgba(0,0,0,0) 68%, rgba(0,0,0,0) 74%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 8%,rgba(0,0,0,0.54) 18%,rgba(0,0,0,0.23) 47%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 74%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 8%,rgba(0,0,0,0.54) 18%,rgba(0,0,0,0.23) 47%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 74%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -139,7 +149,7 @@
                         </ul>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow bounceInUp">
                         <div class="logo text-left">
                                 <!-- LOGO -->                     
                             <img id="logobig" src="images/logo.png" alt=""/>                     
@@ -148,12 +158,16 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 col-sm-8">
+                    <div class="col-md-8 col-sm-8 wow bounceInUp" style="background-color:rgba(7, 6, 14, 0.48)!important;border-radius: 34px;">
                         <div class="home_text">
                             <!-- TITLE AND DESC -->
                             
-                            <h1 style="font-family:Lobster !important;font-size:72PX!important;text-transform:none!important;color:white;">T hrithvam</h1>
-                            <p style="font-family:'Baskerville Old Face'!important;font-size:x-large!important;color:#D86E3F;">We promote your business to the next level</p>
+                            <h1>thrithvam ,</h1>
+                            <h2>creative and passionate professionals working on</h2>
+                            <p></p>
+                            <div class="rw-words-1"><span>integrated solutions</span></div>
+                          
+ 
                         </div>
                     </div> 
                     <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5" style="display:none!important">
@@ -200,7 +214,7 @@
                     <div class="col-md-6">
                         <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                         <!-- PHONE -->
-                            <img src="images/AboutUs/AboutUs.png" alt=""/>
+                            <img src="images/AboutUs/AboutUs2.PNG" alt=""/>
                         </div>
                     </div>
                     <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -851,8 +865,8 @@
                     <div class="copy_right_text">
                     <!-- COPYRIGHT TEXT -->
                         <p>Copyright &copy; 2016 <a href="#"> t h r i t h v a m</a></p>
-                        <p><span class="pe-7s-call"></span><span>+919567677766</span></p>
-                        <p style="text-transform:none!important;"><span class="pe-7s-mail"></span><span>info.thrithvam@gmail.com</span></p>
+                        <p><span class="pe-7s-call"></span><span style="color:white;">+919567677766</span></p>
+                        <p style="text-transform:none!important;"><span class="pe-7s-mail"></span><span style="color:white;">info.thrithvam@gmail.com</span></p>
                     </div>
                 </div>
 
@@ -1227,17 +1241,14 @@
 	<div class="container right_single_feature" style="font-size:16px;">               
 	          
           
-           <h4>Application which can handle complexity in an automater manner</h4>
-           <div><span class="pe-7s-help2"></span></div>Application support you in:<br/>         
-            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i>  Data Collection<br />
-            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Work Reminder<br />
-            <i class="fa fa-angle-right orange"></i>  Calculation<br />
-            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Resource Alocation with minimum effort<br /> 
-            <i class="fa fa-angle-right orange"></i>  Shedule creation based on details provided<br />
-            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Minimize the Wastage of Raw Materials<br /><i class="fa fa-angle-right orange"></i>Time to time reminders<br />
-            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Better Security<br /><i class="fa fa-angle-right orange"></i>Accurate Statistic Reporting<br />
-                        
-
+           <h4>Responsive Websites from Thrithvam</h4>
+           <div><span class="pe-7s-help2"></span></div>Core Specification<br/>         
+            <p style="margin-left:10%;margin-top:5%;line-height:36px;"><i class="fa fa-angle-right orange"></i> Lite Weight<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i>  Responsive<br />
+            <i class="fa fa-angle-right orange"></i> Attractive Content<br />
+            <i class="fa fa-angle-right orange" style="margin-left:5%"></i> User Friendly<br /> 
+            <i class="fa fa-angle-right orange"></i> Theme Based content Orientation<br />
+                <i class="fa fa-angle-right orange" style="margin-left:5%">></i> Expert Support<br />
                 </p></div>
    
     </div>
@@ -1335,79 +1346,62 @@
             animatedOut: 'bounceOut',
             color: 'white',
         });
+        //#logobig,.home_text h1,
+        //$('.home_text p').css("opacity", "1.0").animate({ opacity: 0 }, 5999, function () {
+           // $('#logobig').css("visibility", "hidden");
+        //});
         
-        //$('.home_text h1').html('Thrithvam').animate({ 'opacity': 1 })
-        //$('.home_text h1').css({ "font-family": "Baskerville Old Face","font-size":"56px" })
-        //$('.home_text p').html('We promote your Business').animate({ 'opacity': 1 })
-        //$('.home_text p').css({ "font-family": "Brush Script MT" })
-        $('#logobig').fadeOut(4999);
-        $('.home_text h1').fadeOut(4998);
-        $('.home_text p').fadeOut(4998);
-        
-        slider2();
-        slider();
-        function slider2() {
-            
-            setTimeout(function () {
-                
-                $('.header').css({ "background": "url(../images/SoftSolution.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "135%", "background-position": "center center" })
-                
-            }, 5000);
-            setTimeout(function () {
-                $('.header').css({ "background": "url(../images/DigitMarket.JPG)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "110%", "background-position": "center center" })
-                          
-            }, 10000);
-            setTimeout(function () {
+        ////////////////////////////////////////////////////// SECTION TEXT CHANGE //////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-                $('.header').css({ "background": "url(../images/ThriHome3.jpg)no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "110%", "background-position": "center center" })
-              
-            }, 15000);
-            
-           
-        setTimeout(slider2, 16003);
-        }
-        function slider() {
+        var Z = 0;
+        var Head = [" enterprise application ", " digital marketing", " mobile application", " web apps & websites"]
+        var Caption = ["Converting your business requirement",
+                       "The marketing industry is witnessing a tectonic shift towards digital marketing strategies.",
+                      "The mobile penetration and along with it the demand for access to business information over mobile devices"]
+        var colors = ["#CC99CC", "#d3ffce", "#ff7373"]
+        toggle_Title(Head, Caption, 8000, 6000);
 
-            setTimeout(function () {
-                $('.home_text h1').fadeIn(199);
-                $('.home_text p').fadeIn(199);
-                $('.home_text h1').html('Software Solutioning').animate({ 'opacity': 1 })
-                $('.home_text p').html('Converting your business requirement').animate({ 'opacity': 1 })
-                $('.home_text').css({ "margin-left": "60%", "width": "100%" })
-                $('.home_text h1').css({ "color": "#400D12", "transition": "mymove 6s ease", "font-family": "Playfair Display","font-size":"56px" })
-                $('.home_text p').css({ "color": "#217C7E", "transition": "mymove 6s ease", "font-family": "Lobster" })
-               
-                $('.home_text h1').fadeOut(5001);
-                $('.home_text p').fadeOut(4999);
-            }, 5000);
-            setTimeout(function () {
-                $('.home_text h1').fadeIn(99);
-                $('.home_text p').fadeIn(99);
-                $('.home_text h1').html('Digital Marketing').animate({ 'opacity': 1 })
-                $('.home_text').css({ "margin-left": " " })
-                $('.home_text p').html('The marketing industry is witnessing a tectonic shift towards digital marketing strategies.').animate({ 'opacity': 1 })
-                $('.home_text h1').css({ "color": "#003399" })
-                $('.home_text p').css({ "color": "#00628b" })
-                
-                $('.home_text h1').fadeOut(5001);
-                $('.home_text p').fadeOut(4999);
-            }, 10000);
-            setTimeout(function () {
-                $('.home_text h1').fadeIn(99);
-                $('.home_text p').fadeIn(99);
-                 $('.home_text h1').html('Mobile Application').animate({ 'opacity': 1 })
-                $('.home_text p').html('The mobile penetration and along with it the demand for access to business information over mobile devices').animate({ 'opacity': 1 })//
-                $('.home_text h1').css({ "color": "#FFFF81" })
-                $('.home_text p').css({ "color": "#0099CC" })
-                
-                $('.home_text h1').fadeOut(5001);
-                $('.home_text p').fadeOut(5000);
-            }, 15000);
-            setTimeout(slider, 16003);
+        function toggle_Title(Head, Caption, cycle_time, wait_time) {
+            debugger;
+
+            setInterval(function first_Title() {
+                        
+                //$('.home_text h1').html(Head[Z]);
+                $('.rw-words-1 span').html(' ' + Head[Z]);
+                        $('.home_text p').css("opacity", "0").animate({ opacity: 1.0 },2000, function () {
+                            $('.rw-words-1 span').css("visibility", "visible");
+                            $('.home_text p').css( "color", "" + colors[Z] + "" );
+                        });
+                                              
+            }, cycle_time);          
         }
+        ///////////////////////////////////////// END  TEXT CHANGE ///////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        /////////////////////////////////////SECTION BG CHANGE//////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        var Url = ["SoftSolution.jpg", "DigitMarket.JPG", "ThriHome3.jpg", "bg-1.jpg"]
         
-            </script>
-   
+        toggle_Url(Url, 8000, 6000);
+
+        function toggle_Url(Url, cycle_time, wait_time) {
+            debugger;
+
+            setInterval(function first_Url() {
+                $('.header').css({ "background": "url(../images/"+Url[Z]+")no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "100%", "background-position": "center center" })
+                Z = Z + 1;
+                if (Z === Url.length) {
+                    Z = 0;
+                }
+           }, cycle_time);           
+        }
+        /////////////////////////////////////////////////////////////////////////BG SECTION END//////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        </script>
+
 
 </body>
 </html>
