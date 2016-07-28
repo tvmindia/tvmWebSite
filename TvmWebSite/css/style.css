@@ -145,6 +145,7 @@ p {
     background: url(../images/bg-1.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
+   
 }
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .75);
@@ -193,7 +194,7 @@ p {
      .home_text p {
    text-align:center!important;
    font-size:20px!important;
-   margin-top: 53px!important;
+   margin-top: 63px!important;
 }
     
 
@@ -221,7 +222,7 @@ p {
 color: #82dfe3;
 font-size: 45px;
 line-height: 25px;
-margin-top: 77px;
+margin-top: 26%;
 font-weight: 300;
 text-align: left;
 font-family:'Yu Gothic UI';
@@ -1207,47 +1208,47 @@ select:-webkit-autofill {
 }
 
 .rw-words-1 span{
-    top: 75%;
-    left: 30%;
+    top: 80%;
+    left: 5%;
     font-size:35px;
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
 	color: #6b969d;
-	-webkit-animation: rotateWord 8s linear infinite 0s;
-	-ms-animation: rotateWord 8s linear infinite 0s;
-	animation: rotateWord 8s linear infinite 0s;
+	-webkit-animation: rotateWord 40s linear infinite 0s;
+	-ms-animation: rotateWord 40s linear infinite 0s;
+	animation: rotateWord 40s linear infinite 0s;
 }
 .rw-words-1 span:nth-child(2) { 
-    -webkit-animation-delay: 3s; 
-	-ms-animation-delay: 3s; 
-	animation-delay: 3s; 
+    -webkit-animation-delay: 8s; 
+	-ms-animation-delay: 8s; 
+	animation-delay: 8s; 
 	color: #6b889d;
 }
 .rw-words-1 span:nth-child(3) { 
-    -webkit-animation-delay: 6s; 
-	-ms-animation-delay: 6s; 
-	animation-delay: 6s; 
+    -webkit-animation-delay: 16s; 
+	-ms-animation-delay: 16s; 
+	animation-delay: 16s; 
 	color: #6b739d;	
 }
 .rw-words-1 span:nth-child(4) { 
-    -webkit-animation-delay: 9s; 
-	-ms-animation-delay: 9s; 
-	animation-delay: 9s; 
+    -webkit-animation-delay: 24s; 
+	-ms-animation-delay: 24s; 
+	animation-delay: 24s; 
 	color: #7a6b9d;
 }
 .rw-words-1 span:nth-child(5) { 
-    -webkit-animation-delay: 12s; 
-	-ms-animation-delay: 12s; 
-	animation-delay: 12s; 
+    -webkit-animation-delay: 32s; 
+	-ms-animation-delay: 32s; 
+	animation-delay: 32s; 
 	color: #8d6b9d;
 }
-.rw-words-1 span:nth-child(6) { 
-    -webkit-animation-delay: 15s; 
-	-ms-animation-delay: 15s; 
-	animation-delay: 15s; 
+/*.rw-words-1 span:nth-child(6) { 
+    -webkit-animation-delay: 32s; 
+	-ms-animation-delay: 32s; 
+	animation-delay: 32s; 
 	color: #9b6b9d;
-}
+}*/
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
     2% { opacity: 0; -webkit-transform: translateY(-30px); }
@@ -1275,3 +1276,184 @@ select:-webkit-autofill {
 	80% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+
+/*.header {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s;
+}
+.header { background-image: url(../images/SoftSolution.jpg) }
+.header {
+    background-image: url(../images/2.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.header {
+    background-image: url(DigitMarket.JPG);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.header {
+    background-image: url(ThriHome3.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.header {
+    background-image: url(../images/home.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.header {
+    background-image: url(../images/bg-1.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}*/
+/*@-webkit-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -webkit-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -webkit-transform: scale(1.05);
+	    -webkit-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -webkit-transform: scale(1.1);
+	}
+	22% {
+		opacity: 0;
+		-webkit-transform: scale(1.1) translateY(-20%);
+	}
+	25% {
+	    opacity: 0;
+	    -webkit-transform: scale(1.1) translateY(-100%);
+	}
+	100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -moz-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -moz-transform: scale(1.05);
+	    -moz-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -moz-transform: scale(1.1);
+	}
+	22% {
+		opacity: 0;
+		-webkit-transform: scale(1.1) translateY(-20%);
+	}
+	25% {
+	    opacity: 0;
+	    -moz-transform: scale(1.1) translateY(-100%);
+	}
+	100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -o-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -o-transform: scale(1.05);
+	    -o-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -o-transform: scale(1.1);
+	}
+	22% {
+		opacity: 0;
+		-webkit-transform: scale(1.1) translateY(-20%);
+	}
+	25% {
+	    opacity: 0;
+	    -o-transform: scale(1.1) translateY(-100%);
+	}
+	100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -ms-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -ms-transform: scale(1.05);
+	    -ms-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -ms-transform: scale(1.1);
+	}
+	22% {
+		opacity: 0;
+		-webkit-transform: scale(1.1) translateY(-20%);
+	}
+	25% {
+	    opacity: 0;
+	    -ms-transform: scale(1.1) translateY(-100%);
+	}
+	100% { opacity: 0 }
+}
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	22% {
+		opacity: 0;
+		-webkit-transform: scale(1.1) translateY(-20%);
+	}
+	25% {
+	    opacity: 0;
+	    -transform: scale(1.1) translateY(-100%);
+	}
+	100% { opacity: 0 }
+}*/

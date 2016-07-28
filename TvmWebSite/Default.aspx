@@ -157,7 +157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                         
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="width:65%!important">
                     <div class="col-md-8 col-sm-8 wow bounceInUp" style="background-color:rgba(7, 6, 14, 0.48)!important;border-radius: 34px;">
                         <div class="home_text">
                             <!-- TITLE AND DESC -->
@@ -165,7 +165,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                             <h1>thrithvam ,</h1>
                             <h2>creative and passionate professionals working on</h2>
                             <p></p>
-                            <div class="rw-words-1"><span>integrated solutions</span></div>
+                            <div class="rw-words-1"><span>integrated solutions</span><span>enterprise application</span><span>digital marketing</span><span>mobile application</span><span>web apps & websites</span></div>
                           
  
                         </div>
@@ -1354,35 +1354,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
         ////////////////////////////////////////////////////// SECTION TEXT CHANGE //////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        var Z = 0;
-        var Head = [" enterprise application ", " digital marketing", " mobile application", " web apps & websites"]
-        var Caption = ["Converting your business requirement",
-                       "The marketing industry is witnessing a tectonic shift towards digital marketing strategies.",
-                      "The mobile penetration and along with it the demand for access to business information over mobile devices"]
-        var colors = ["#CC99CC", "#d3ffce", "#ff7373"]
-        toggle_Title(Head, Caption, 8000, 6000);
+        
+        //var Head = [" enterprise application ", " digital marketing", " mobile application", " web apps & websites"]
+        //var Caption = ["Converting your business requirement",
+        //               "The marketing industry is witnessing a tectonic shift towards digital marketing strategies.",
+        //              "The mobile penetration and along with it the demand for access to business information over mobile devices"]
+        //var colors = ["#CC99CC", "#d3ffce", "#ff7373"]
+        //toggle_Title(Head, Caption, 8000, 6000);
 
-        function toggle_Title(Head, Caption, cycle_time, wait_time) {
-            debugger;
+        //function toggle_Title(Head, Caption, cycle_time, wait_time) {
+        //    debugger;
 
-            setInterval(function first_Title() {
+        //    setInterval(function first_Title() {
                         
-                //$('.home_text h1').html(Head[Z]);
-                $('.rw-words-1 span').html(' ' + Head[Z]);
-                        $('.home_text p').css("opacity", "0").animate({ opacity: 1.0 },2000, function () {
-                            $('.rw-words-1 span').css("visibility", "visible");
-                            $('.home_text p').css( "color", "" + colors[Z] + "" );
-                        });
+        //        //$('.home_text h1').html(Head[Z]);
+        //        $('.rw-words-1 span').html(' ' + Head[Z]);
+        //                $('.home_text p').css("opacity", "0").animate({ opacity: 1.0 },2000, function () {
+        //                    $('.rw-words-1 span').css("visibility", "visible");
+        //                    $('.home_text p').css( "color", "" + colors[Z] + "" );
+        //                });
                                               
-            }, cycle_time);          
-        }
+        //    }, cycle_time);          
+        //}
         ///////////////////////////////////////// END  TEXT CHANGE ///////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
         /////////////////////////////////////SECTION BG CHANGE//////////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        var Url = ["SoftSolution.jpg", "DigitMarket.JPG", "ThriHome3.jpg", "bg-1.jpg"]
+        var Z = 0;
+        var Url = ["SoftSolution.jpg", "DigitMarket.JPG", "ThriHome3.jpg", "home.jpg", "bg-1.jpg"]
         
         toggle_Url(Url, 8000, 6000);
 
@@ -1390,11 +1391,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
             debugger;
 
             setInterval(function first_Url() {
-                $('.header').css({ "background": "url(../images/"+Url[Z]+")no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 6s ease", "width": "100%", "background-position": "center center" })
-                Z = Z + 1;
-                if (Z === Url.length) {
-                    Z = 0;
-                }
+            
+                    $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 7s ease", "width": "100%", "background-position": "center center" })
+                    
+                    Z = Z + 1;
+                    if (Z === Url.length) {
+                        Z = 0;
+                    }
+                
            }, cycle_time);           
         }
         /////////////////////////////////////////////////////////////////////////BG SECTION END//////////////////////////////////////////////////
