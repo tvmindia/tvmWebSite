@@ -154,6 +154,8 @@
     <Content Include="images\ProductImages\Trailtiquespro.jpg" />
     <Content Include="images\TiquesLogo.png" />
     <Content Include="images\Tiquespop.png" />
+    <Content Include="images\tvm white.png" />
+    <Content Include="images\WebApcopy.jpg" />
     <Content Include="images\WebAp.jpg" />
     <Content Include="images\WebApp.jpg" />
     <Content Include="images\Webhost.png" />

@@ -148,29 +148,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                             <li><a href="#CONTACT">CONTACT </a> </li>
                         </ul>
                 </div>
-                <div class="row">
+                <div class="row" style="position:absolute!important;top:5%!important">
                     <div class="col-md-12 wow bounceInUp">
                         <div class="logo text-left">
                                 <!-- LOGO -->                     
-                            <img id="logobig" src="images/logo.png" alt=""/>                     
+                            <img id="logobig" src="images/tvm white.png" alt=""/>                     
                         </div>
                         
                     </div>
                 </div>
-                <div class="row" style="width:65%!important">
+                <div class="row" style="width:90%!important">
                     <div class="col-md-8 col-sm-8 wow bounceInUp">
-                        <div class="home_text" style="text-shadow: 0 3px 6px rgba(0,0,0,0.26), 0 3px 6px rgba(0,0,0,0.53)!important;">
+                        <div class="home_text" style="text-shadow: 0 3px 6px rgba(0,0,0,1), 0 3px 6px rgba(0,0,0,1)!important;">
                             <!-- TITLE AND DESC -->
-                            
-                          
                             <h2>we are , creative and passionate people </h2>
-                         
-                            
-                          
- 
                         </div>
-                        </div> 
-                    <div class="rw-words-1"><span>develope integrated solutions</span><span>build enterprise application</span><span>do digital marketing</span><span>make mobile application</span><span>create web apps & websites</span></div>
+                    </div> 
+                <div class="rw-words-1"><span>develope integrated solutions</span><span>build enterprise application</span><span>do digital marketing</span><span>make mobile application</span><span>create web apps & websites</span></div>
                     
                     <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5" style="display:none!important">
                         <div class="home-iphone">
@@ -1392,16 +1386,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
         function toggle_Url(Url, cycle_time, wait_time) {
             setInterval(function first_Url() {
-                    $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat","opacity":"1.0", "background-size": "cover", "-webkit-transition": "all 150ms ease", "-moz-transition": "all 6.5s ease", "-ms-transition": "all 6.5s ease", "transition": "all 150ms", "width": "100%", "background-position": "center center" })
+                $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat", "opacity": "1.0", "background-size": "cover", "-webkit-transition": "all 250ms ease", "-moz-transition": "all 250ms ease", "-ms-transition": "all 250ms ease", "transition": "all 250ms ease", "width": "100%", "background-position": "center center" })
                     Z = Z + 1;
                     if (Z === Url.length) {
                         Z = 0;
-                    }
-            
-                    
-                    
-
-                
+                    }              
            }, cycle_time);           
         }
         /////////////////////////////////////////////////////////////////////////BG SECTION END//////////////////////////////////////////////////
