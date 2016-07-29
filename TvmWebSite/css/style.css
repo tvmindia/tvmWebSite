@@ -145,6 +145,7 @@ p {
     background: url(../images/bg-1.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
+    width:100%;
    
 }
 .header .section_overlay {
@@ -176,53 +177,76 @@ p {
 {
     .home_text h2 {
    font-size:15px!important;
+   line-height: 20px;
 }
+    .rw-words-1 span{
+        font-size:15px!important;
+        left:30%!important;
+    }
 }
 @media (max-width: 768px){
     .home-iphone{
         display: none;
     }
     .home_text{
-       
-        text-align: center;
+       text-align: center;
         /*font-family:'Brush Script MT';*/
-        font-size:12px!important;
+       font-size:12px!important;
     }
     .home_text h2 {
-   font-size:12px!important;
+        font-size:12px!important;
+    }
+    .rw-words-1 span{
+        font-size:12px!important;
+    }
+     .home_text p {
+        text-align:center!important;
+        font-size:20px!important;
+        margin-top: 40%!important;
+     }
 }
+@media (max-width: 330px) {
+ .home_text h2 {
+   font-size:11px!important;
+   line-height:15px!important;
+   }
+ .home_text h1 {
+   font-size:30px!important;
+   }
+    .rw-words-1 span{
+        font-size:11px!important;
+        left:20%!important;
+    }
      .home_text p {
    text-align:center!important;
    font-size:20px!important;
-   margin-top: 63px!important;
-}
-    
-
+   margin-top: 30%!important;
+   }
 }
 .home_text h1 {
-    color: #fff;
+    color: #37FDFC;
     text-transform: none;
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 45px;
     padding-top: 30px;
     font-family:'Yu Gothic UI';
     
 }
 .home_text h2 {
-    color:#B5B5B5;
+    color:#97FFFF;
     text-transform: none;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 35px;
-    font-family:'Yu Gothic UI';
+    /*font-family:'Yu Gothic UI';*/
     /*padding-top: 30px*/
 }
 .home_text p {
 color: #82dfe3;
 font-size: 45px;
 line-height: 25px;
-margin-top: 26%;
+margin-top: 23%;
 font-weight: 300;
 text-align: left;
 font-family:'Yu Gothic UI';
@@ -1208,13 +1232,15 @@ select:-webkit-autofill {
 }
 
 .rw-words-1 span{
-    top: 80%;
+    top: 75%;
     left: 5%;
-    font-size:35px;
+    font-size:45px;
+    font-weight: 300;
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
-	color: #6b969d;
+	color: #ADD1FD;
+    font-family:'Yu Gothic UI';
 	-webkit-animation: rotateWord 40s linear infinite 0s;
 	-ms-animation: rotateWord 40s linear infinite 0s;
 	animation: rotateWord 40s linear infinite 0s;
@@ -1223,25 +1249,29 @@ select:-webkit-autofill {
     -webkit-animation-delay: 8s; 
 	-ms-animation-delay: 8s; 
 	animation-delay: 8s; 
-	color: #6b889d;
+	color: #3B7639;
+    font-weight: 300;
 }
 .rw-words-1 span:nth-child(3) { 
     -webkit-animation-delay: 16s; 
 	-ms-animation-delay: 16s; 
 	animation-delay: 16s; 
-	color: #6b739d;	
+	color: #0166CB;	
+    font-weight: 300;
 }
 .rw-words-1 span:nth-child(4) { 
     -webkit-animation-delay: 24s; 
 	-ms-animation-delay: 24s; 
 	animation-delay: 24s; 
-	color: #7a6b9d;
+	color:#644815;
+    font-weight: 300;
 }
 .rw-words-1 span:nth-child(5) { 
     -webkit-animation-delay: 32s; 
 	-ms-animation-delay: 32s; 
 	animation-delay: 32s; 
-	color: #8d6b9d;
+	color: #CE8904;
+    font-weight: 300;
 }
 /*.rw-words-1 span:nth-child(6) { 
     -webkit-animation-delay: 32s; 

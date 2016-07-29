@@ -158,14 +158,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                     </div>
                 </div>
                 <div class="row" style="width:65%!important">
-                    <div class="col-md-8 col-sm-8 wow bounceInUp" style="background-color:rgba(7, 6, 14, 0.48)!important;border-radius: 34px;">
-                        <div class="home_text">
+                    <div class="col-md-8 col-sm-8 wow bounceInUp">
+                        <div class="home_text" style="text-shadow: 0 3px 6px rgba(0,0,0,0.26), 0 3px 6px rgba(0,0,0,0.53)!important;">
                             <!-- TITLE AND DESC -->
                             
-                            <h1>thrithvam ,</h1>
+                            <h1>thrithvam</h1>
                             <h2>creative and passionate professionals working on</h2>
                             <p></p>
-                            <div class="rw-words-1"><span>integrated solutions</span><span>enterprise application</span><span>digital marketing</span><span>mobile application</span><span>web apps & websites</span></div>
+                            <div class="rw-words-1"><span>Integrated Solutions</span><span>Enterprise Application</span><span>Digital Marketing</span><span>Mobile Application</span><span>Web Apps & Websites</span></div>
                           
  
                         </div>
@@ -220,7 +220,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                     <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                         <!-- TITLE -->
                         <div class="inner_about_title">
-                            <h2>Why we are best <br> for you</h2>
+                            <h2>Why we are best <br/> for you</h2>
                             <p>Thrithvam builds, execute and support customized applications for businesses targeting Small and Medium Enterprise (SME).</p>
                         </div>
                         <div class="inner_about_desc">
@@ -1357,9 +1357,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
         
         //var Head = [" enterprise application ", " digital marketing", " mobile application", " web apps & websites"]
         //var Caption = ["Converting your business requirement",
-        //               "The marketing industry is witnessing a tectonic shift towards digital marketing strategies.",
+        //              "The marketing industry is witnessing a tectonic shift towards digital marketing strategies.",
         //              "The mobile penetration and along with it the demand for access to business information over mobile devices"]
-        //var colors = ["#CC99CC", "#d3ffce", "#ff7373"]
+        //var colors = ["#42426F", "#525C65", "#ff7373"]
         //toggle_Title(Head, Caption, 8000, 6000);
 
         //function toggle_Title(Head, Caption, cycle_time, wait_time) {
@@ -1368,10 +1368,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
         //    setInterval(function first_Title() {
                         
         //        //$('.home_text h1').html(Head[Z]);
-        //        $('.rw-words-1 span').html(' ' + Head[Z]);
-        //                $('.home_text p').css("opacity", "0").animate({ opacity: 1.0 },2000, function () {
-        //                    $('.rw-words-1 span').css("visibility", "visible");
-        //                    $('.home_text p').css( "color", "" + colors[Z] + "" );
+        //        //$('.rw-words-1 span').html(' ' + Head[Z]);
+        //                $('.home_text h2').css("opacity", "0").animate({ opacity: 1.0 },2000, function () {
+        //                    //$('.rw-words-1 span').css("visibility", "visible");
+        //                    $('.home_text h2').css( "color", "" + colors[Z] + "" );
         //                });
                                               
         //    }, cycle_time);          
@@ -1383,27 +1383,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
         /////////////////////////////////////SECTION BG CHANGE//////////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         var Z = 0;
-        var Url = ["SoftSolution.jpg", "DigitMarket.JPG", "ThriHome3.jpg", "home.jpg", "bg-1.jpg"]
+        //var Url = ["SoftSolution.jpg", "DigitMarket.JPG", "ThriHome3.jpg", "home.jpg", "bg-1.jpg"]
+        var Url = ["Home22.jpg", "HomeDigit.JPG", "ModApp.jpg", "WebApp.jpg", "bg-1.jpg"]
         
         toggle_Url(Url, 8000, 6000);
 
         function toggle_Url(Url, cycle_time, wait_time) {
-            debugger;
-
             setInterval(function first_Url() {
-            
-                    $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat", "background-size": "cover", "-webkit-transition": "all 6s ease", "-moz-transition": "all 6s ease", "-ms-transition": "all 6s ease", "transition": "all 7s ease", "width": "100%", "background-position": "center center" })
-                    
+                $('.header').css("opacity", "1.0").animate({ opacity:.8 }, 1600, function () {
+                    $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat","opacity":"1.0", "background-size": "cover", "-webkit-transition": "all 6.5s ease", "-moz-transition": "all 6.5s ease", "-ms-transition": "all 6.5s ease", "transition": "all 6.5s ease", "width": "100%", "background-position": "center center" })
                     Z = Z + 1;
                     if (Z === Url.length) {
                         Z = 0;
                     }
+                });
+                    
+                    
+
                 
            }, cycle_time);           
         }
         /////////////////////////////////////////////////////////////////////////BG SECTION END//////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //function doTimer(length, resolution, oninstance, oncomplete) {
+        //    var steps = (length / 100) * (resolution / 10),
+        //        speed = length / steps,
+        //        count = 0,
+        //        start = new Date().getTime();
 
+        //    function instance() {
+        //        if (count++ == steps) {
+        //            oncomplete(steps, count);
+        //        }
+        //        else {
+        //            oninstance(steps, count);
+
+        //            var diff = (new Date().getTime() - start) - (count * speed);
+        //            window.setTimeout(instance, (speed - diff));
+        //        }
+        //    }
+
+        //    window.setTimeout(instance, speed);
+        //}
+        //var img = document.getElementById('image');
+
+        //var opacity = 1;
+        //img.style.opacity = opacity;
+
+        //doTimer(5000, 20, function (steps) {
+        //    opacity = opacity - (1 / steps);
+        //    img.style.opacity = opacity;
+        //},
+        //function () {
+        //    img.style.opacity = 0;
+        //});
         </script>
 
 
