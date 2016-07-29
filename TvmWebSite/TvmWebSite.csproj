@@ -77,6 +77,9 @@
     <Content Include="fonts\Pe-icon-7-stroke.svg" />
     <Content Include="images\12.JPG" />
     <Content Include="images\2.png" />
+    <Content Include="images\DigitMar.jpg" />
+    <Content Include="images\DigitMark.jpg" />
+    <Content Include="images\full-logo.png" />
     <Content Include="images\Home11.jpg" />
     <Content Include="images\AboutUs\AboutUs1.PNG" />
     <Content Include="images\AboutUs\AboutUs.PNG" />
@@ -151,6 +154,7 @@
     <Content Include="images\ProductImages\Trailtiquespro.jpg" />
     <Content Include="images\TiquesLogo.png" />
     <Content Include="images\Tiquespop.png" />
+    <Content Include="images\WebAp.jpg" />
     <Content Include="images\WebApp.jpg" />
     <Content Include="images\Webhost.png" />
     <Content Include="js\animatedModal.js" />

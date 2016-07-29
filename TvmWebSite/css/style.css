@@ -145,7 +145,7 @@ p {
     background: url(../images/bg-1.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
-    width:100%;
+   
    
 }
 .header .section_overlay {
@@ -698,7 +698,7 @@ div.carousel-inner .item img {
 .single_fun_facts i {
     color: #f39c12;
     font-size: 60px;
-    ;
+    
 }
 .single_fun_facts h2 {
     color: #D7DADB;
@@ -1232,14 +1232,17 @@ select:-webkit-autofill {
 }
 
 .rw-words-1 span{
-    top: 75%;
-    left: 5%;
+    font-size:60px!important;
+    color:teal;
+     text-shadow: 0 3px 6px rgba(0,0,0,0.26), 0 3px 6px rgba(0,0,0,0.53);
+    top: 72%;
+    left: 7.5%;
     font-size:45px;
     font-weight: 300;
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
-	color: #ADD1FD;
+	/*color: #ADD1FD;*/
     font-family:'Yu Gothic UI';
 	-webkit-animation: rotateWord 40s linear infinite 0s;
 	-ms-animation: rotateWord 40s linear infinite 0s;
@@ -1309,55 +1312,55 @@ select:-webkit-autofill {
 
 
 /*.header {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*/*left: 0px;*/
+    /*background-size: cover;
     background-position: 50% 50%;
     background-repeat:no-repeat;
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
+    -webkit-animation: imageAnimation 8s linear infinite 0s;
+    -moz-animation: imageAnimation 8s linear infinite 0s;
+    -o-animation: imageAnimation 8s linear infinite 0s;
+    -ms-animation: imageAnimation 8s linear infinite 0s;
+    animation: imageAnimation 8s linear infinite 0s;
 }
-.header { background-image: url(../images/SoftSolution.jpg) }
-.header {
-    background-image: url(../images/2.jpg);
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-.header {
-    background-image: url(DigitMarket.JPG);
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-.header {
-    background-image: url(ThriHome3.jpg);
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
+.header { background-image: url(../images/bg-1.jpg) }*/*/*/
+/*.header {
+    background-image: url(../images/Home22.jpg);
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    -o-animation-delay: 8s;
+    -ms-animation-delay: 8s;
+    animation-delay: 8s;
+}*/
+/*.header {
+    background-image: url(../images/HomeDigit.JPG);
+    -webkit-animation-delay: 16s;
+    -moz-animation-delay: 16s;
+    -o-animation-delay: 16s;
+    -ms-animation-delay: 16s;
+    animation-delay: 16s;
 }
 .header {
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/ModApp.jpg);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
     animation-delay: 24s;
+}
+.header {
+    background-image: url(../images/WebApp.jpg);
+    -webkit-animation-delay: 32s;
+    -moz-animation-delay: 32s;
+    -o-animation-delay: 32s;
+    -ms-animation-delay: 32s;
+    animation-delay: 32s;
 }
 .header {
     background-image: url(../images/bg-1.jpg);
@@ -1486,4 +1489,39 @@ select:-webkit-autofill {
 	    -transform: scale(1.1) translateY(-100%);
 	}
 	100% { opacity: 0 }
+}*/
+
+
+/*@-webkit-keyframes bgMove { 
+    from { 
+        background-position: 50% 0;
+    } 
+    to { 
+        background-position:-50% -480px;
+       
+    } 
+}
+@-moz-keyframes bgMove { 
+    from { 
+        background-position: 50% 0;
+    } 
+    to { 
+        background-position: 50% -480px;
+    } 
+}
+@-o-keyframes bgMove { 
+    from { 
+        background-position: 0 0;
+    } 
+    to { 
+        background-position: 0 -200px;
+    } 
+}
+@keyframes bgMove { 
+    from { 
+        background-position: 50% 0;
+    } 
+    to { 
+        background-position:50% -480px;
+    } 
 }*/

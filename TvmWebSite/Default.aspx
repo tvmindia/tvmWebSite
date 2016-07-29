@@ -162,14 +162,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                         <div class="home_text" style="text-shadow: 0 3px 6px rgba(0,0,0,0.26), 0 3px 6px rgba(0,0,0,0.53)!important;">
                             <!-- TITLE AND DESC -->
                             
-                            <h1>thrithvam</h1>
-                            <h2>creative and passionate professionals working on</h2>
-                            <p></p>
-                            <div class="rw-words-1"><span>Integrated Solutions</span><span>Enterprise Application</span><span>Digital Marketing</span><span>Mobile Application</span><span>Web Apps & Websites</span></div>
+                          
+                            <h2>we are , creative and passionate people </h2>
+                         
+                            
                           
  
                         </div>
-                    </div> 
+                        </div> 
+                    <div class="rw-words-1"><span>develope integrated solutions</span><span>build enterprise application</span><span>do digital marketing</span><span>mobile application</span><span>web apps & websites</span></div>
+                    
                     <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5" style="display:none!important">
                         <div class="home-iphone">
                             <img src="images/ThriHome4.png" alt=""/>
@@ -1384,19 +1386,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         var Z = 0;
         //var Url = ["SoftSolution.jpg", "DigitMarket.JPG", "ThriHome3.jpg", "home.jpg", "bg-1.jpg"]
-        var Url = ["Home22.jpg", "HomeDigit.JPG", "ModApp.jpg", "WebApp.jpg", "bg-1.jpg"]
+        var Url = ["Home22.jpg", "DigitMark.JPG", "ModApp.jpg", "WebAp.jpg", "bg-1.jpg"]
         
         toggle_Url(Url, 8000, 6000);
 
         function toggle_Url(Url, cycle_time, wait_time) {
             setInterval(function first_Url() {
-                $('.header').css("opacity", "1.0").animate({ opacity:.8 }, 1600, function () {
-                    $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat","opacity":"1.0", "background-size": "cover", "-webkit-transition": "all 6.5s ease", "-moz-transition": "all 6.5s ease", "-ms-transition": "all 6.5s ease", "transition": "all 6.5s ease", "width": "100%", "background-position": "center center" })
+                    $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat","opacity":"1.0", "background-size": "cover", "-webkit-transition": "all 150ms ease", "-moz-transition": "all 6.5s ease", "-ms-transition": "all 6.5s ease", "transition": "all 150ms", "width": "100%", "background-position": "center center" })
                     Z = Z + 1;
                     if (Z === Url.length) {
                         Z = 0;
                     }
-                });
+            
                     
                     
 
