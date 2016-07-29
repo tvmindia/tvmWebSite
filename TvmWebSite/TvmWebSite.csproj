@@ -203,6 +203,7 @@
     <Content Include="fonts\trench.100.otf" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="fonts\Lobster_1.3.otf" />
+    <None Include="Properties\PublishProfiles\TvmWebsite.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

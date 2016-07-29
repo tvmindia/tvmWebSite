@@ -172,16 +172,18 @@ p {
     .home_text p {
     text-align:left!important;
 }
+
 }
-@media(max-width:1000px)
+@media(max-width:1024px)
 {
     .home_text h2 {
    font-size:15px!important;
    line-height: 20px;
 }
     .rw-words-1 span{
-        font-size:15px!important;
-        left:30%!important;
+        font-size:40px!important;
+        left:4%!important;
+        top:63%!important;
     }
 }
 @media (max-width: 768px){
@@ -191,13 +193,15 @@ p {
     .home_text{
        text-align: center;
         /*font-family:'Brush Script MT';*/
-       font-size:12px!important;
+       font-size:16px!important;
     }
     .home_text h2 {
         font-size:12px!important;
     }
     .rw-words-1 span{
-        font-size:12px!important;
+        font-size:35px!important;
+        left:7%!important;
+        top:65%!important;
     }
      .home_text p {
         text-align:center!important;
@@ -205,23 +209,33 @@ p {
         margin-top: 40%!important;
      }
 }
+@media(max-width:500px)
+{
+.rw-words-1 span{
+        font-size:35px!important;
+        left:7%!important;
+        top:78%!important;
+    }
+}
 @media (max-width: 330px) {
  .home_text h2 {
-   font-size:11px!important;
+   font-size:12px!important;
    line-height:15px!important;
    }
  .home_text h1 {
    font-size:30px!important;
    }
     .rw-words-1 span{
-        font-size:11px!important;
-        left:20%!important;
+        font-size:18px!important;
+        left:13%!important;
+        top:75%!important;
+        /*left:20%!important;*/
     }
-     .home_text p {
+     /*.home_text p {
    text-align:center!important;
    font-size:20px!important;
    margin-top: 30%!important;
-   }
+   }*/
 }
 .home_text h1 {
     color: #37FDFC;
@@ -1232,7 +1246,7 @@ select:-webkit-autofill {
 }
 
 .rw-words-1 span{
-    font-size:60px!important;
+    font-size:60px;
     color:teal;
      text-shadow: 0 3px 6px rgba(0,0,0,0.26), 0 3px 6px rgba(0,0,0,0.53);
     top: 72%;

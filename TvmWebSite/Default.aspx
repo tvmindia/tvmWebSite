@@ -170,7 +170,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
  
                         </div>
                         </div> 
-                    <div class="rw-words-1"><span>develope integrated solutions</span><span>build enterprise application</span><span>do digital marketing</span><span>mobile application</span><span>web apps & websites</span></div>
+                    <div class="rw-words-1"><span>develope integrated solutions</span><span>build enterprise application</span><span>do digital marketing</span><span>make mobile application</span><span>create web apps & websites</span></div>
                     
                     <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5" style="display:none!important">
                         <div class="home-iphone">
