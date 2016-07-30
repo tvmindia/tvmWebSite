@@ -145,7 +145,18 @@ p {
     background: url(../images/bg-1.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
-   
+    -webkit-transition:all 1s ease-out;
+    -moz-transition:all 1s ease-out;
+    -o-transition:all 1s ease-out;
+    -ms-transition:all 1s ease-out;
+    transition:all 1s ease-out;
+    -webkit-backface-visibility: hidden!important;
+    -moz-backface-visibility:    hidden!important;
+    -ms-backface-visibility:     hidden!important;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
    
 }
 .header .section_overlay {
@@ -260,14 +271,14 @@ p {
     
 }
 .home_text p {
-color: #82dfe3;
-font-size: 45px;
-line-height: 25px;
-margin-top: 23%;
-font-weight: 300;
-text-align: left;
-font-family:'Yu Gothic UI';
-padding-bottom:30px;
+    color: #82dfe3;
+    font-size: 45px;
+    line-height: 25px;
+    margin-top: 23%;
+    font-weight: 300;
+    text-align: left;
+    font-family:'Yu Gothic UI';
+    padding-bottom:30px;
 }
 
 .download-btn {

@@ -1386,11 +1386,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
         function toggle_Url(Url, cycle_time, wait_time) {
             setInterval(function first_Url() {
-                $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat", "opacity": "1.0", "background-size": "cover", "-webkit-transition": "all 250ms ease", "-moz-transition": "all 250ms ease", "-ms-transition": "all 250ms ease", "transition": "all 250ms ease", "width": "100%", "background-position": "center center" })
+                //$('.header').delay(2000).queue(function () {
+                $('.header').css({ "-webkit-backface-visibility":" hidden!important","-moz-backface-visibility":"    hidden!important","-ms-backface-visibility":"     hidden!important","-webkit-transform":" translate3d(0, 0, 0)"
+                ,"-moz-transform": "translate3d(0, 0, 0)","-ms-transform": "translate3d(0, 0, 0)","transform": "translate3d(0, 0, 0)","background": "url(../images/" + Url[Z] + ")no-repeat", "opacity": "1.0", "background-size": "cover", "-webkit-transition": "all 1s ease", "-moz-transition": "all 250ms ease","-o-transition":"all 1s ease", "-ms-transition": "all 1s ease", "transition": "all 1s ease", "width": "100%", "background-position": "center center" })
                     Z = Z + 1;
                     if (Z === Url.length) {
                         Z = 0;
-                    }              
+                    }    
+                //});
            }, cycle_time);           
         }
         /////////////////////////////////////////////////////////////////////////BG SECTION END//////////////////////////////////////////////////
