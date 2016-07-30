@@ -150,13 +150,7 @@ p {
     -o-transition:all 1s ease-out;
     -ms-transition:all 1s ease-out;
     transition:all 1s ease-out;
-    -webkit-backface-visibility: hidden!important;
-    -moz-backface-visibility:    hidden!important;
-    -ms-backface-visibility:     hidden!important;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+   
    
 }
 .header .section_overlay {
