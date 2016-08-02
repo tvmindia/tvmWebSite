@@ -1258,8 +1258,8 @@ select:-webkit-autofill {
     line-height:82px;
     color:teal;
     text-shadow: 0 3px 6px rgba(0,0,0,1), 0 3px 6px rgba(0,0,0,0.53);
-    top: 68%;
-    left: 7.7%;
+    margin-top: 122px;
+    width: 100% !important;
     font-weight: 300;
 	position: absolute;
 	opacity: 0;

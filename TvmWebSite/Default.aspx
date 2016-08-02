@@ -162,9 +162,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                         <div class="home_text" style="text-shadow: 0 3px 6px rgba(0,0,0,1), 0 3px 6px rgba(0,0,0,1)!important;">
                             <!-- TITLE AND DESC -->
                             <h2>we are , creative and passionate people </h2>
+                            <div class="rw-words-1"><span>develope integrated solutions</span><span>build enterprise application</span><span>do digital marketing</span><span>make mobile application</span><span>create web apps & websites</span></div>
                         </div>
                     </div> 
-                <div class="rw-words-1"><span>develope integrated solutions</span><span>build enterprise application</span><span>do digital marketing</span><span>make mobile application</span><span>create web apps & websites</span></div>
+                
                     
                     <div id="imageHome" class="col-md-6 col-md-offset-1 col-sm-5" style="display:none!important">
                         <div class="home-iphone">
@@ -1379,7 +1380,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
         /////////////////////////////////////SECTION BG CHANGE//////////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         var Z = 0;
-        //var Url = ["SoftSolution.jpg", "DigitMarket.JPG", "ThriHome3.jpg", "home.jpg", "bg-1.jpg"]
+        var position = ["left", "cover", "left", "cover"]
         var Url = ["Home22.jpg", "DigitMark.JPG", "ModApp.jpg", "WebAp.jpg", "bg-1.jpg"]
         
         toggle_Url(Url, 8000, 6000);
@@ -1387,14 +1388,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
         function toggle_Url(Url, cycle_time, wait_time) {
             setInterval(function first_Url() {
                // $('.header').delay(2000).queue(function () {
-                $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat", "opacity": "1.0", "background-size": "cover", "-webkit-transition": "all 1s ease", "-moz-transition": "all 1s ease", "-ms-transition": "all 1s ease", "transition": "all 1s ease", "width": "100%", "background-position": "center center" })
-                    Z = Z + 1;
+                $('.header').css({ "background": "url(../images/" + Url[Z] + ")no-repeat", "opacity": "1.0", "background-size": "cover", "-webkit-transition": "all 1s ease-out", "-moz-transition": "all 1s ease-out", "-ms-transition": "all 1s ease-out","-o-transition":"all 1s ease-out", "transition": "all 1s ease-out","background-position":""+position[Z]+"" })
+                Z = Z + 1;
+                
                     if (Z === Url.length) {
                         Z = 0;
                     }    
               //  });
-           }, cycle_time);           
+            }, cycle_time);
+           
         }
+       
         /////////////////////////////////////////////////////////////////////////BG SECTION END//////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //function doTimer(length, resolution, oninstance, oncomplete) {
